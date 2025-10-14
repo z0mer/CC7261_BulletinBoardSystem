@@ -1,5 +1,17 @@
 services:
-  messenger:
-    build: .
-    deploy:
-      replicas: 2
+  # Serviço do Servidor
+  server:
+    build: ./server
+    container_name: chat_server
+    ports:
+      - "5555:5555"
+    volumes:
+      - ./data:/app/data
+
+  client:
+    build: ./client
+    container_name: chat_client
+    depends_on:
+      - server
+    stdin_open: true
+    tty: true
