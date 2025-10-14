@@ -1,0 +1,5 @@
+services:
+  messenger:
+    build: .
+    deploy:
+      replicas: 2
