@@ -1,0 +1,13 @@
+{
+  "name": "cliente",
+  "version": "1.0.0",
+  "description": "Cliente para sistema de mensagens",
+  "main": "cliente.js",
+  "scripts": {
+    "start": "node cliente.js"
+  },
+  "dependencies": {
+    "zeromq": "^6.0.0-beta.19",
+    "msgpack5": "^6.0.2"
+  }
+}

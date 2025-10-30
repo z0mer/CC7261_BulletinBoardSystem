@@ -1,17 +1,88 @@
+version: '3.8'
+
 services:
-  # Serviço do Servidor
-  server:
-    build: ./server
-    container_name: chat_server
+  # Broker Request-Reply (Python)
+  broker:
+    build:
+      context: ./python/broker
+      dockerfile: Dockerfile
+    container_name: broker
     ports:
       - "5555:5555"
-    volumes:
-      - ./data:/app/data
+    networks:
+      - sd-network
 
-  client:
-    build: ./client
-    container_name: chat_client
+  # Proxy Pub-Sub (Node.js)
+  proxy:
+    build:
+      context: ./nodejs/proxy
+      dockerfile: Dockerfile
+    container_name: proxy
+    ports:
+      - "5557:5557"
+      - "5558:5558"
+    networks:
+      - sd-network
+
+  # Servidor de Referência (C#)
+  referencia:
+    build:
+      context: ./csharp/referencia
+      dockerfile: Dockerfile
+    container_name: referencia
+    ports:
+      - "5559:5559"
+    networks:
+      - sd-network
+
+  # Servidores (Python) - 3 réplicas
+  servidor:
+    build:
+      context: ./python/servidor
+      dockerfile: Dockerfile
+    deploy:
+      replicas: 3
+    environment:
+      - SERVER_NAME=servidor_${HOSTNAME}
+    volumes:
+      - servidor-data:/app/data
     depends_on:
-      - server
+      - broker
+      - proxy
+      - referencia
+    networks:
+      - sd-network
+
+  # Cliente (Node.js)
+  cliente:
+    build:
+      context: ./nodejs/cliente
+      dockerfile: Dockerfile
+    container_name: cliente
     stdin_open: true
     tty: true
+    depends_on:
+      - broker
+      - proxy
+    networks:
+      - sd-network
+
+  # Bots (Node.js) - 2 réplicas
+  bot:
+    build:
+      context: ./nodejs/bot
+      dockerfile: Dockerfile
+    deploy:
+      replicas: 2
+    depends_on:
+      - broker
+      - proxy
+    networks:
+      - sd-network
+
+networks:
+  sd-network:
+    driver: bridge
+
+volumes:
+  servidor-data:
