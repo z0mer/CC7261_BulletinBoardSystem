@@ -1,5 +1,3 @@
-version: '3.8'
-
 services:
   # Broker Request-Reply (Python)
   broker:
@@ -9,6 +7,7 @@ services:
     container_name: broker
     ports:
       - "5555:5555"
+      - "5556:5556"
     networks:
       - sd-network
 
@@ -35,17 +34,50 @@ services:
     networks:
       - sd-network
 
-  # Servidores (Python) - 3 réplicas
-  servidor:
+  # Servidor 1 (Python)
+  servidor_1:
     build:
       context: ./python/servidor
       dockerfile: Dockerfile
-    deploy:
-      replicas: 3
+    container_name: servidor_1
     environment:
-      - SERVER_NAME=servidor_${HOSTNAME}
+      - SERVER_NAME=servidor_1
     volumes:
-      - servidor-data:/app/data
+      - servidor-data-1:/app/data
+    depends_on:
+      - broker
+      - proxy
+      - referencia
+    networks:
+      - sd-network
+
+  # Servidor 2 (Python)
+  servidor_2:
+    build:
+      context: ./python/servidor
+      dockerfile: Dockerfile
+    container_name: servidor_2
+    environment:
+      - SERVER_NAME=servidor_2
+    volumes:
+      - servidor-data-2:/app/data
+    depends_on:
+      - broker
+      - proxy
+      - referencia
+    networks:
+      - sd-network
+
+  # Servidor 3 (Python)
+  servidor_3:
+    build:
+      context: ./python/servidor
+      dockerfile: Dockerfile
+    container_name: servidor_3
+    environment:
+      - SERVER_NAME=servidor_3
+    volumes:
+      - servidor-data-3:/app/data
     depends_on:
       - broker
       - proxy
@@ -67,13 +99,24 @@ services:
     networks:
       - sd-network
 
-  # Bots (Node.js) - 2 réplicas
-  bot:
+  # Bot 1 (Node.js)
+  bot_1:
     build:
       context: ./nodejs/bot
       dockerfile: Dockerfile
-    deploy:
-      replicas: 2
+    container_name: bot_1
+    depends_on:
+      - broker
+      - proxy
+    networks:
+      - sd-network
+
+  # Bot 2 (Node.js)
+  bot_2:
+    build:
+      context: ./nodejs/bot
+      dockerfile: Dockerfile
+    container_name: bot_2
     depends_on:
       - broker
       - proxy
@@ -85,4 +128,6 @@ networks:
     driver: bridge
 
 volumes:
-  servidor-data:
+  servidor-data-1:
+  servidor-data-2:
+  servidor-data-3:
