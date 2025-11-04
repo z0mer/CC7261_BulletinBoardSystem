@@ -2,9 +2,17 @@ FROM python:3.11-slim
 
 WORKDIR /app
 
-RUN pip install --no-cache-dir pyzmq
+# Copiar requirements
+COPY requirements.txt .
 
-COPY broker.py .
+# Instalar dependências
+RUN pip install --no-cache-dir -r requirements.txt
 
-CMD ["python", "-u", "broker.py"]
+# Copiar código fonte
+COPY . .
 
+# Expor porta
+EXPOSE 5555
+
+# Comando padrão
+CMD ["python", "broker.py"]

@@ -1,133 +1,154 @@
+version: '3.8'
+
 services:
-  # Broker Request-Reply (Python)
-  broker:
-    build:
-      context: ./python/broker
-      dockerfile: Dockerfile
-    container_name: broker
-    ports:
-      - "5555:5555"
-      - "5556:5556"
-    networks:
-      - sd-network
-
-  # Proxy Pub-Sub (Node.js)
-  proxy:
-    build:
-      context: ./nodejs/proxy
-      dockerfile: Dockerfile
-    container_name: proxy
-    ports:
-      - "5557:5557"
-      - "5558:5558"
-    networks:
-      - sd-network
-
   # Servidor de Referência (C#)
   referencia:
     build:
       context: ./csharp/referencia
       dockerfile: Dockerfile
-    container_name: referencia
+    container_name: bbs_referencia
+    networks:
+      - bbs_network
     ports:
       - "5559:5559"
-    networks:
-      - sd-network
+    environment:
+      - PORTA=5559
+    restart: unless-stopped
 
-  # Servidor 1 (Python)
-  servidor_1:
+  # Servidores Python (3 instâncias)
+  servidor1:
     build:
       context: ./python/servidor
       dockerfile: Dockerfile
-    container_name: servidor_1
-    environment:
-      - SERVER_NAME=servidor_1
-    volumes:
-      - servidor-data-1:/app/data
-    depends_on:
-      - broker
-      - proxy
-      - referencia
+    container_name: bbs_servidor1
     networks:
-      - sd-network
+      - bbs_network
+    ports:
+      - "5001:5001"
+    environment:
+      - SERVIDOR_ID=servidor1
+      - PORTA=5001
+      - PEERS=tcp://servidor2:5002,tcp://servidor3:5003
+      - REFERENCIA=tcp://referencia:5559
+    volumes:
+      - ./python/servidor/dados/servidor1:/app/data
+    depends_on:
+      - referencia
+    restart: unless-stopped
 
-  # Servidor 2 (Python)
-  servidor_2:
+  servidor2:
     build:
       context: ./python/servidor
       dockerfile: Dockerfile
-    container_name: servidor_2
-    environment:
-      - SERVER_NAME=servidor_2
-    volumes:
-      - servidor-data-2:/app/data
-    depends_on:
-      - broker
-      - proxy
-      - referencia
+    container_name: bbs_servidor2
     networks:
-      - sd-network
+      - bbs_network
+    ports:
+      - "5002:5002"
+    environment:
+      - SERVIDOR_ID=servidor2
+      - PORTA=5002
+      - PEERS=tcp://servidor1:5001,tcp://servidor3:5003
+      - REFERENCIA=tcp://referencia:5559
+    volumes:
+      - ./python/servidor/dados/servidor2:/app/data
+    depends_on:
+      - referencia
+    restart: unless-stopped
 
-  # Servidor 3 (Python)
-  servidor_3:
+  servidor3:
     build:
       context: ./python/servidor
       dockerfile: Dockerfile
-    container_name: servidor_3
-    environment:
-      - SERVER_NAME=servidor_3
-    volumes:
-      - servidor-data-3:/app/data
-    depends_on:
-      - broker
-      - proxy
-      - referencia
+    container_name: bbs_servidor3
     networks:
-      - sd-network
+      - bbs_network
+    ports:
+      - "5003:5003"
+    environment:
+      - SERVIDOR_ID=servidor3
+      - PORTA=5003
+      - PEERS=tcp://servidor1:5001,tcp://servidor2:5002
+      - REFERENCIA=tcp://referencia:5559
+    volumes:
+      - ./python/servidor/dados/servidor3:/app/data
+    depends_on:
+      - referencia
+    restart: unless-stopped
 
-  # Cliente (Node.js)
+  # Proxy Node.js
+  proxy:
+    build:
+      context: ./nodejs/proxy
+      dockerfile: Dockerfile
+    container_name: bbs_proxy
+    networks:
+      - bbs_network
+    ports:
+      - "5556:5556"
+      - "5557:5557"
+    environment:
+      - PROXY_FRONTEND_PORT=5556
+      - PROXY_BACKEND_PORT=5557
+    restart: unless-stopped
+
+  # Broker Python
+  broker:
+    build:
+      context: ./python/broker
+      dockerfile: Dockerfile
+    container_name: bbs_broker
+    networks:
+      - bbs_network
+    ports:
+      - "5555:5555"
+    environment:
+      - PORTA=5555
+      - SERVIDORES=tcp://servidor1:5001,tcp://servidor2:5002,tcp://servidor3:5003
+      - PROXY_BACKEND=tcp://proxy:5557
+    depends_on:
+      - servidor1
+      - servidor2
+      - servidor3
+      - proxy
+    restart: unless-stopped
+
+  # Cliente Node.js (interativo)
   cliente:
     build:
       context: ./nodejs/cliente
       dockerfile: Dockerfile
-    container_name: cliente
+    container_name: bbs_cliente
+    networks:
+      - bbs_network
+    environment:
+      - BROKER_ADDRESS=tcp://broker:5555
+      - PROXY_ADDRESS=tcp://proxy:5556
+    depends_on:
+      - broker
+      - proxy
     stdin_open: true
     tty: true
-    depends_on:
-      - broker
-      - proxy
-    networks:
-      - sd-network
+    profiles:
+      - cliente
 
-  # Bot 1 (Node.js)
-  bot_1:
+  # Bot de teste
+  bot:
     build:
       context: ./nodejs/bot
       dockerfile: Dockerfile
-    container_name: bot_1
+    container_name: bbs_bot
+    networks:
+      - bbs_network
+    environment:
+      - BROKER_ADDRESS=tcp://broker:5555
+      - PROXY_ADDRESS=tcp://proxy:5556
     depends_on:
       - broker
       - proxy
-    networks:
-      - sd-network
-
-  # Bot 2 (Node.js)
-  bot_2:
-    build:
-      context: ./nodejs/bot
-      dockerfile: Dockerfile
-    container_name: bot_2
-    depends_on:
-      - broker
-      - proxy
-    networks:
-      - sd-network
+    profiles:
+      - testing
 
 networks:
-  sd-network:
+  bbs_network:
     driver: bridge
-
-volumes:
-  servidor-data-1:
-  servidor-data-2:
-  servidor-data-3:

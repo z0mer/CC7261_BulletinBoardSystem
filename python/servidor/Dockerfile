@@ -2,8 +2,20 @@ FROM python:3.11-slim
 
 WORKDIR /app
 
-RUN pip install --no-cache-dir pyzmq msgpack
+# Copiar requirements
+COPY requirements.txt .
 
-COPY servidor.py .
+# Instalar dependências
+RUN pip install --no-cache-dir -r requirements.txt
 
-CMD ["python", "-u", "servidor.py"]
+# Copiar código fonte
+COPY . .
+
+# Criar diretório de dados
+RUN mkdir -p /app/data
+
+# Expor portas
+EXPOSE 5001 5002 5003
+
+# Comando padrão
+CMD ["python", "servidor.py"]

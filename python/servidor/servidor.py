@@ -502,6 +502,64 @@ class Servidor:
             }
         }
     
+    def handle_list_users(self, msg):
+        """Lista todos os usuários cadastrados"""
+        try:
+            users_list = list(self.users.keys())  # ❌ AQUI! Só retorna nomes
+            
+            # ✅ DEVE SER:
+            users_list = [
+                {
+                    "username": username,
+                    "timestamp": user_data.get("timestamp", 0),
+                    "clock": user_data.get("clock", 0)
+                }
+                for username, user_data in self.users.items()
+            ]
+            
+            response = {
+                "type": "list_users_response",
+                "users": users_list,
+                "clock": self.logical_clock
+            }
+            
+            self.req_socket.send(msgpack.packb(response))
+        
+        except Exception as e:
+            print(f"❌ Erro ao listar usuários: {e}")
+            error_response = {"error": str(e)}
+            self.req_socket.send(msgpack.packb(error_response))
+    
+    def handle_list_channels(self, msg):
+        """Lista todos os canais disponíveis"""
+        try:
+            channels_list = list(self.channels.keys())  # ❌ AQUI! Só retorna nomes
+            
+            # ✅ DEVE SER:
+            channels_list = [
+                {
+                    "name": channel_name,
+                    "creator": channel_data.get("creator", "unknown"),
+                    "timestamp": channel_data.get("timestamp", 0),
+                    "subscribers": channel_data.get("subscribers", []),
+                    "clock": channel_data.get("clock", 0)
+                }
+                for channel_name, channel_data in self.channels.items()
+            ]
+            
+            response = {
+                "type": "list_channels_response",
+                "channels": channels_list,
+                "clock": self.logical_clock
+            }
+            
+            self.req_socket.send(msgpack.packb(response))
+        
+        except Exception as e:
+            print(f"❌ Erro ao listar canais: {e}")
+            error_response = {"error": str(e)}
+            self.req_socket.send(msgpack.packb(error_response))
+    
     def run(self):
         """Loop principal do servidor"""
         print(f"╔{'═'*50}╗")

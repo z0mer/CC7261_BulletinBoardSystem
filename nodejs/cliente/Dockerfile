@@ -1,10 +1,15 @@
-FROM node:18-alpine
+FROM node:20-alpine
 
 WORKDIR /app
 
-COPY package.json .
+# Copiar package.json
+COPY package*.json ./
+
+# Instalar dependências
 RUN npm install
 
-COPY cliente.js .
+# Copiar código fonte
+COPY . .
 
+# Comando padrão
 CMD ["node", "cliente.js"]
