@@ -13,6 +13,7 @@ services:
       - "5559:5559"
     environment:
       - PORTA=5559
+      - TZ=America/Sao_Paulo  # ✅ ADICIONAR ESTA LINHA
     restart: unless-stopped
 
   # Servidores Python (3 instâncias)
@@ -30,6 +31,7 @@ services:
       - PORTA=5001
       - PEERS=tcp://servidor2:5002,tcp://servidor3:5003
       - REFERENCIA=tcp://referencia:5559
+      - TZ=America/Sao_Paulo  # ✅ ADICIONAR ESTA LINHA
     volumes:
       - ./python/servidor/dados/servidor1:/app/data
     depends_on:
@@ -50,6 +52,7 @@ services:
       - PORTA=5002
       - PEERS=tcp://servidor1:5001,tcp://servidor3:5003
       - REFERENCIA=tcp://referencia:5559
+      - TZ=America/Sao_Paulo  # ✅ ADICIONAR ESTA LINHA
     volumes:
       - ./python/servidor/dados/servidor2:/app/data
     depends_on:
@@ -70,6 +73,7 @@ services:
       - PORTA=5003
       - PEERS=tcp://servidor1:5001,tcp://servidor2:5002
       - REFERENCIA=tcp://referencia:5559
+      - TZ=America/Sao_Paulo  # ✅ ADICIONAR ESTA LINHA
     volumes:
       - ./python/servidor/dados/servidor3:/app/data
     depends_on:
@@ -90,6 +94,7 @@ services:
     environment:
       - PROXY_FRONTEND_PORT=5556
       - PROXY_BACKEND_PORT=5557
+      - TZ=America/Sao_Paulo  # ✅ ADICIONAR ESTA LINHA
     restart: unless-stopped
 
   # Broker Python
@@ -106,6 +111,7 @@ services:
       - PORTA=5555
       - SERVIDORES=tcp://servidor1:5001,tcp://servidor2:5002,tcp://servidor3:5003
       - PROXY_BACKEND=tcp://proxy:5557
+      - TZ=America/Sao_Paulo  # ✅ ADICIONAR ESTA LINHA
     depends_on:
       - servidor1
       - servidor2
@@ -124,6 +130,7 @@ services:
     environment:
       - BROKER_ADDRESS=tcp://broker:5555
       - PROXY_ADDRESS=tcp://proxy:5556
+      - TZ=America/Sao_Paulo  # ✅ ADICIONAR ESTA LINHA
     depends_on:
       - broker
       - proxy
@@ -143,6 +150,7 @@ services:
     environment:
       - BROKER_ADDRESS=tcp://broker:5555
       - PROXY_ADDRESS=tcp://proxy:5556
+      - TZ=America/Sao_Paulo  # ✅ ADICIONAR ESTA LINHA
     depends_on:
       - broker
       - proxy

@@ -604,5 +604,5651 @@
     "user": "bot_2764",
     "message": "Como est\u00e3o? [10/10]",
     "timestamp": 1762293497.2910209
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Mensagem autom\u00e1tica do bot [1/10]",
+    "timestamp": 1762293520.046975
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Ol\u00e1 pessoal! [2/10]",
+    "timestamp": 1762293521.0511978
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Como est\u00e3o? [3/10]",
+    "timestamp": 1762293522.0558438
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Testando o sistema [4/10]",
+    "timestamp": 1762293523.0603545
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Bot em a\u00e7\u00e3o! [5/10]",
+    "timestamp": 1762293524.0670574
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Ol\u00e1 pessoal! [6/10]",
+    "timestamp": 1762293525.0710182
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "MessagePack \u00e9 eficiente [7/10]",
+    "timestamp": 1762293526.0760128
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Como est\u00e3o? [8/10]",
+    "timestamp": 1762293527.080467
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "ZeroMQ funcionando [9/10]",
+    "timestamp": 1762293528.0841875
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Como est\u00e3o? [10/10]",
+    "timestamp": 1762293529.0888379
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Sistemas distribu\u00eddos \u00e9 legal! [1/10]",
+    "timestamp": 1762293553.4109457
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Mensagem autom\u00e1tica do bot [2/10]",
+    "timestamp": 1762293554.4157152
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "ZeroMQ funcionando [3/10]",
+    "timestamp": 1762293555.422081
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Bot em a\u00e7\u00e3o! [4/10]",
+    "timestamp": 1762293556.4271624
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Bot em a\u00e7\u00e3o! [5/10]",
+    "timestamp": 1762293557.433357
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "ZeroMQ funcionando [6/10]",
+    "timestamp": 1762293558.4386325
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Testando o sistema [7/10]",
+    "timestamp": 1762293559.4431179
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Sistemas distribu\u00eddos \u00e9 legal! [8/10]",
+    "timestamp": 1762293560.448457
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Ol\u00e1 pessoal! [9/10]",
+    "timestamp": 1762293561.452722
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Bot em a\u00e7\u00e3o! [10/10]",
+    "timestamp": 1762293562.4574823
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Algu\u00e9m a\u00ed? [1/10]",
+    "timestamp": 1762293575.296513
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Bot em a\u00e7\u00e3o! [2/10]",
+    "timestamp": 1762293576.3032591
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Bot em a\u00e7\u00e3o! [3/10]",
+    "timestamp": 1762293577.3080304
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Bot em a\u00e7\u00e3o! [4/10]",
+    "timestamp": 1762293578.3154235
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Algu\u00e9m a\u00ed? [5/10]",
+    "timestamp": 1762293579.3203356
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Mensagem autom\u00e1tica do bot [6/10]",
+    "timestamp": 1762293580.3273768
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Testando o sistema [7/10]",
+    "timestamp": 1762293581.332166
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Rel\u00f3gios sincronizados! [8/10]",
+    "timestamp": 1762293582.3364105
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Ol\u00e1 pessoal! [9/10]",
+    "timestamp": 1762293583.341879
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Sistemas distribu\u00eddos \u00e9 legal! [10/10]",
+    "timestamp": 1762293584.3466134
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Como est\u00e3o? [1/10]",
+    "timestamp": 1762293597.572316
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Ol\u00e1 pessoal! [2/10]",
+    "timestamp": 1762293598.5773978
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Como est\u00e3o? [3/10]",
+    "timestamp": 1762293599.5816755
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Mensagem autom\u00e1tica do bot [4/10]",
+    "timestamp": 1762293600.5853102
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Algu\u00e9m a\u00ed? [5/10]",
+    "timestamp": 1762293601.5891
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "MessagePack \u00e9 eficiente [6/10]",
+    "timestamp": 1762293602.593718
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Bot em a\u00e7\u00e3o! [7/10]",
+    "timestamp": 1762293603.5985367
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Rel\u00f3gios sincronizados! [8/10]",
+    "timestamp": 1762293604.6029265
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Sistemas distribu\u00eddos \u00e9 legal! [9/10]",
+    "timestamp": 1762293605.607208
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Algu\u00e9m a\u00ed? [10/10]",
+    "timestamp": 1762293606.6121538
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Mensagem autom\u00e1tica do bot [1/10]",
+    "timestamp": 1762293626.9923708
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "MessagePack \u00e9 eficiente [2/10]",
+    "timestamp": 1762293627.9971807
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Algu\u00e9m a\u00ed? [3/10]",
+    "timestamp": 1762293629.0028286
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "ZeroMQ funcionando [4/10]",
+    "timestamp": 1762293630.0084736
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Bot em a\u00e7\u00e3o! [5/10]",
+    "timestamp": 1762293631.013092
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Testando o sistema [6/10]",
+    "timestamp": 1762293632.0212276
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Bot em a\u00e7\u00e3o! [7/10]",
+    "timestamp": 1762293633.025455
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Bot em a\u00e7\u00e3o! [8/10]",
+    "timestamp": 1762293634.0300522
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Bot em a\u00e7\u00e3o! [9/10]",
+    "timestamp": 1762293635.0342438
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "MessagePack \u00e9 eficiente [10/10]",
+    "timestamp": 1762293636.0395699
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Mensagem autom\u00e1tica do bot [1/10]",
+    "timestamp": 1762293648.0744476
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Mensagem autom\u00e1tica do bot [2/10]",
+    "timestamp": 1762293649.0783231
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Rel\u00f3gios sincronizados! [3/10]",
+    "timestamp": 1762293650.0828035
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Bot em a\u00e7\u00e3o! [4/10]",
+    "timestamp": 1762293651.0880144
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Algu\u00e9m a\u00ed? [5/10]",
+    "timestamp": 1762293652.0927746
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Como est\u00e3o? [6/10]",
+    "timestamp": 1762293653.09754
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Bot em a\u00e7\u00e3o! [7/10]",
+    "timestamp": 1762293654.1035047
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Mensagem autom\u00e1tica do bot [8/10]",
+    "timestamp": 1762293655.108313
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Sistemas distribu\u00eddos \u00e9 legal! [9/10]",
+    "timestamp": 1762293656.1148386
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Ol\u00e1 pessoal! [10/10]",
+    "timestamp": 1762293657.1199324
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Algu\u00e9m a\u00ed? [1/10]",
+    "timestamp": 1762293677.3218985
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Sistemas distribu\u00eddos \u00e9 legal! [2/10]",
+    "timestamp": 1762293678.326855
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Mensagem autom\u00e1tica do bot [3/10]",
+    "timestamp": 1762293679.3319964
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Como est\u00e3o? [4/10]",
+    "timestamp": 1762293680.3370595
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Mensagem autom\u00e1tica do bot [5/10]",
+    "timestamp": 1762293681.341904
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Ol\u00e1 pessoal! [6/10]",
+    "timestamp": 1762293682.3476868
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Ol\u00e1 pessoal! [7/10]",
+    "timestamp": 1762293683.3532116
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "MessagePack \u00e9 eficiente [8/10]",
+    "timestamp": 1762293684.3597658
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "MessagePack \u00e9 eficiente [9/10]",
+    "timestamp": 1762293685.3666825
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Algu\u00e9m a\u00ed? [10/10]",
+    "timestamp": 1762293686.3713968
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Testando o sistema [1/10]",
+    "timestamp": 1762293713.818111
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "MessagePack \u00e9 eficiente [2/10]",
+    "timestamp": 1762293714.825793
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Sistemas distribu\u00eddos \u00e9 legal! [3/10]",
+    "timestamp": 1762293715.830465
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Como est\u00e3o? [4/10]",
+    "timestamp": 1762293716.8348634
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Sistemas distribu\u00eddos \u00e9 legal! [5/10]",
+    "timestamp": 1762293717.8400767
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Rel\u00f3gios sincronizados! [6/10]",
+    "timestamp": 1762293718.8450673
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Testando o sistema [7/10]",
+    "timestamp": 1762293719.8508968
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Testando o sistema [8/10]",
+    "timestamp": 1762293720.8567712
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Ol\u00e1 pessoal! [9/10]",
+    "timestamp": 1762293721.8617346
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Algu\u00e9m a\u00ed? [10/10]",
+    "timestamp": 1762293722.8660827
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Rel\u00f3gios sincronizados! [1/10]",
+    "timestamp": 1762293743.6018155
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Testando o sistema [2/10]",
+    "timestamp": 1762293744.6072276
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Ol\u00e1 pessoal! [3/10]",
+    "timestamp": 1762293745.612125
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "ZeroMQ funcionando [4/10]",
+    "timestamp": 1762293746.6172342
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Testando o sistema [5/10]",
+    "timestamp": 1762293747.6248932
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Sistemas distribu\u00eddos \u00e9 legal! [6/10]",
+    "timestamp": 1762293748.6321375
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Algu\u00e9m a\u00ed? [7/10]",
+    "timestamp": 1762293749.637106
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "ZeroMQ funcionando [8/10]",
+    "timestamp": 1762293750.6424503
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Mensagem autom\u00e1tica do bot [9/10]",
+    "timestamp": 1762293751.647372
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Rel\u00f3gios sincronizados! [10/10]",
+    "timestamp": 1762293752.6525474
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Rel\u00f3gios sincronizados! [1/10]",
+    "timestamp": 1762293771.291959
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Como est\u00e3o? [2/10]",
+    "timestamp": 1762293772.2978268
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Testando o sistema [3/10]",
+    "timestamp": 1762293773.3025181
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Algu\u00e9m a\u00ed? [4/10]",
+    "timestamp": 1762293774.3070037
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Rel\u00f3gios sincronizados! [5/10]",
+    "timestamp": 1762293775.3147922
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Testando o sistema [6/10]",
+    "timestamp": 1762293776.319693
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Bot em a\u00e7\u00e3o! [7/10]",
+    "timestamp": 1762293777.3244498
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Ol\u00e1 pessoal! [8/10]",
+    "timestamp": 1762293778.329017
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Ol\u00e1 pessoal! [9/10]",
+    "timestamp": 1762293779.3336484
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Sistemas distribu\u00eddos \u00e9 legal! [10/10]",
+    "timestamp": 1762293780.3389757
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Testando o sistema [1/10]",
+    "timestamp": 1762293799.0315833
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Bot em a\u00e7\u00e3o! [2/10]",
+    "timestamp": 1762293800.0421758
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "ZeroMQ funcionando [3/10]",
+    "timestamp": 1762293801.0481114
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Bot em a\u00e7\u00e3o! [4/10]",
+    "timestamp": 1762293802.0543704
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "ZeroMQ funcionando [5/10]",
+    "timestamp": 1762293803.0594943
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Mensagem autom\u00e1tica do bot [6/10]",
+    "timestamp": 1762293804.0665038
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Algu\u00e9m a\u00ed? [7/10]",
+    "timestamp": 1762293805.0713167
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "MessagePack \u00e9 eficiente [8/10]",
+    "timestamp": 1762293806.076166
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Testando o sistema [9/10]",
+    "timestamp": 1762293807.0843642
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Testando o sistema [10/10]",
+    "timestamp": 1762293808.0895884
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Bot em a\u00e7\u00e3o! [1/10]",
+    "timestamp": 1762293819.3205476
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Testando o sistema [2/10]",
+    "timestamp": 1762293820.3275762
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "ZeroMQ funcionando [3/10]",
+    "timestamp": 1762293821.335089
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Bot em a\u00e7\u00e3o! [4/10]",
+    "timestamp": 1762293822.3401232
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Sistemas distribu\u00eddos \u00e9 legal! [5/10]",
+    "timestamp": 1762293823.345802
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Mensagem autom\u00e1tica do bot [6/10]",
+    "timestamp": 1762293824.3507574
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Algu\u00e9m a\u00ed? [7/10]",
+    "timestamp": 1762293825.3557706
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Sistemas distribu\u00eddos \u00e9 legal! [8/10]",
+    "timestamp": 1762293826.3607612
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Algu\u00e9m a\u00ed? [9/10]",
+    "timestamp": 1762293827.3693378
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "ZeroMQ funcionando [10/10]",
+    "timestamp": 1762293828.3741593
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Mensagem autom\u00e1tica do bot [1/10]",
+    "timestamp": 1762293849.538116
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Ol\u00e1 pessoal! [2/10]",
+    "timestamp": 1762293850.5436018
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Como est\u00e3o? [3/10]",
+    "timestamp": 1762293851.5584586
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "ZeroMQ funcionando [4/10]",
+    "timestamp": 1762293852.5646946
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Mensagem autom\u00e1tica do bot [5/10]",
+    "timestamp": 1762293853.5700333
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Ol\u00e1 pessoal! [6/10]",
+    "timestamp": 1762293854.5752575
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Algu\u00e9m a\u00ed? [7/10]",
+    "timestamp": 1762293855.582224
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Ol\u00e1 pessoal! [8/10]",
+    "timestamp": 1762293856.5916307
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "MessagePack \u00e9 eficiente [9/10]",
+    "timestamp": 1762293857.5967073
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "ZeroMQ funcionando [10/10]",
+    "timestamp": 1762293858.601811
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Testando o sistema [1/10]",
+    "timestamp": 1762293878.749973
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Bot em a\u00e7\u00e3o! [2/10]",
+    "timestamp": 1762293879.757473
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Algu\u00e9m a\u00ed? [3/10]",
+    "timestamp": 1762293880.7624362
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Algu\u00e9m a\u00ed? [4/10]",
+    "timestamp": 1762293881.7675683
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "MessagePack \u00e9 eficiente [5/10]",
+    "timestamp": 1762293882.7731752
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Testando o sistema [6/10]",
+    "timestamp": 1762293883.7786458
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Bot em a\u00e7\u00e3o! [7/10]",
+    "timestamp": 1762293884.783684
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Sistemas distribu\u00eddos \u00e9 legal! [8/10]",
+    "timestamp": 1762293885.7894175
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Sistemas distribu\u00eddos \u00e9 legal! [9/10]",
+    "timestamp": 1762293886.795387
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Testando o sistema [10/10]",
+    "timestamp": 1762293887.8025706
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Rel\u00f3gios sincronizados! [1/10]",
+    "timestamp": 1762293916.661973
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Sistemas distribu\u00eddos \u00e9 legal! [2/10]",
+    "timestamp": 1762293917.6698163
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Mensagem autom\u00e1tica do bot [3/10]",
+    "timestamp": 1762293918.6758094
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Como est\u00e3o? [4/10]",
+    "timestamp": 1762293919.6808786
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Sistemas distribu\u00eddos \u00e9 legal! [5/10]",
+    "timestamp": 1762293920.6860316
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Bot em a\u00e7\u00e3o! [6/10]",
+    "timestamp": 1762293921.6915455
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Testando o sistema [7/10]",
+    "timestamp": 1762293922.7037845
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Ol\u00e1 pessoal! [8/10]",
+    "timestamp": 1762293923.7094557
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Como est\u00e3o? [9/10]",
+    "timestamp": 1762293924.7148705
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Algu\u00e9m a\u00ed? [10/10]",
+    "timestamp": 1762293925.7198982
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "MessagePack \u00e9 eficiente [1/10]",
+    "timestamp": 1762293943.5970714
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Mensagem autom\u00e1tica do bot [2/10]",
+    "timestamp": 1762293944.6022165
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Como est\u00e3o? [3/10]",
+    "timestamp": 1762293945.6116798
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Rel\u00f3gios sincronizados! [4/10]",
+    "timestamp": 1762293946.616859
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Ol\u00e1 pessoal! [5/10]",
+    "timestamp": 1762293947.6230385
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Como est\u00e3o? [6/10]",
+    "timestamp": 1762293948.628165
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "MessagePack \u00e9 eficiente [7/10]",
+    "timestamp": 1762293949.635724
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Como est\u00e3o? [8/10]",
+    "timestamp": 1762293950.6413412
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Mensagem autom\u00e1tica do bot [9/10]",
+    "timestamp": 1762293951.6469352
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Rel\u00f3gios sincronizados! [10/10]",
+    "timestamp": 1762293952.6526353
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "MessagePack \u00e9 eficiente [1/10]",
+    "timestamp": 1762293974.6493275
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Algu\u00e9m a\u00ed? [2/10]",
+    "timestamp": 1762293975.6548452
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Sistemas distribu\u00eddos \u00e9 legal! [3/10]",
+    "timestamp": 1762293976.6609228
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Ol\u00e1 pessoal! [4/10]",
+    "timestamp": 1762293977.6660013
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "ZeroMQ funcionando [5/10]",
+    "timestamp": 1762293978.6712742
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "MessagePack \u00e9 eficiente [6/10]",
+    "timestamp": 1762293979.6768384
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "MessagePack \u00e9 eficiente [7/10]",
+    "timestamp": 1762293980.6843393
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Mensagem autom\u00e1tica do bot [8/10]",
+    "timestamp": 1762293981.689711
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Rel\u00f3gios sincronizados! [9/10]",
+    "timestamp": 1762293982.696255
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Algu\u00e9m a\u00ed? [10/10]",
+    "timestamp": 1762293983.7011755
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Como est\u00e3o? [1/10]",
+    "timestamp": 1762293996.452088
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Testando o sistema [2/10]",
+    "timestamp": 1762293997.4576674
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Bot em a\u00e7\u00e3o! [3/10]",
+    "timestamp": 1762293998.4636354
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Como est\u00e3o? [4/10]",
+    "timestamp": 1762293999.4715724
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Sistemas distribu\u00eddos \u00e9 legal! [5/10]",
+    "timestamp": 1762294000.4768224
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Testando o sistema [6/10]",
+    "timestamp": 1762294001.4827173
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Algu\u00e9m a\u00ed? [7/10]",
+    "timestamp": 1762294002.488111
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Algu\u00e9m a\u00ed? [8/10]",
+    "timestamp": 1762294003.4945433
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Algu\u00e9m a\u00ed? [9/10]",
+    "timestamp": 1762294004.5000513
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Testando o sistema [10/10]",
+    "timestamp": 1762294005.5042083
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Ol\u00e1 pessoal! [1/10]",
+    "timestamp": 1762294036.0075152
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Sistemas distribu\u00eddos \u00e9 legal! [2/10]",
+    "timestamp": 1762294037.0185502
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Como est\u00e3o? [3/10]",
+    "timestamp": 1762294038.0274813
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "ZeroMQ funcionando [4/10]",
+    "timestamp": 1762294039.032133
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Testando o sistema [5/10]",
+    "timestamp": 1762294040.0376377
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "ZeroMQ funcionando [6/10]",
+    "timestamp": 1762294041.043042
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Sistemas distribu\u00eddos \u00e9 legal! [7/10]",
+    "timestamp": 1762294042.0495906
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Como est\u00e3o? [8/10]",
+    "timestamp": 1762294043.0549178
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Testando o sistema [9/10]",
+    "timestamp": 1762294044.0605316
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "ZeroMQ funcionando [10/10]",
+    "timestamp": 1762294045.0659635
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "ZeroMQ funcionando [1/10]",
+    "timestamp": 1762294061.098688
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Algu\u00e9m a\u00ed? [2/10]",
+    "timestamp": 1762294062.1044946
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "MessagePack \u00e9 eficiente [3/10]",
+    "timestamp": 1762294063.110163
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Mensagem autom\u00e1tica do bot [4/10]",
+    "timestamp": 1762294064.1169162
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Mensagem autom\u00e1tica do bot [5/10]",
+    "timestamp": 1762294065.122697
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Mensagem autom\u00e1tica do bot [6/10]",
+    "timestamp": 1762294066.1261375
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Como est\u00e3o? [7/10]",
+    "timestamp": 1762294067.132648
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Bot em a\u00e7\u00e3o! [8/10]",
+    "timestamp": 1762294068.138781
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Como est\u00e3o? [9/10]",
+    "timestamp": 1762294069.1452515
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Sistemas distribu\u00eddos \u00e9 legal! [10/10]",
+    "timestamp": 1762294070.1504686
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Mensagem autom\u00e1tica do bot [1/10]",
+    "timestamp": 1762294085.3438642
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Testando o sistema [2/10]",
+    "timestamp": 1762294086.3493516
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Algu\u00e9m a\u00ed? [3/10]",
+    "timestamp": 1762294087.3563673
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Mensagem autom\u00e1tica do bot [4/10]",
+    "timestamp": 1762294088.3637419
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Bot em a\u00e7\u00e3o! [5/10]",
+    "timestamp": 1762294089.3691926
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Bot em a\u00e7\u00e3o! [6/10]",
+    "timestamp": 1762294090.374595
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Mensagem autom\u00e1tica do bot [7/10]",
+    "timestamp": 1762294091.3805394
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Testando o sistema [8/10]",
+    "timestamp": 1762294092.38778
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Bot em a\u00e7\u00e3o! [9/10]",
+    "timestamp": 1762294093.3933232
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Testando o sistema [10/10]",
+    "timestamp": 1762294094.400499
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Sistemas distribu\u00eddos \u00e9 legal! [1/10]",
+    "timestamp": 1762294124.202095
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "MessagePack \u00e9 eficiente [2/10]",
+    "timestamp": 1762294125.21291
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Testando o sistema [3/10]",
+    "timestamp": 1762294126.2183642
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Sistemas distribu\u00eddos \u00e9 legal! [4/10]",
+    "timestamp": 1762294127.2245057
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Ol\u00e1 pessoal! [5/10]",
+    "timestamp": 1762294128.2306535
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Rel\u00f3gios sincronizados! [6/10]",
+    "timestamp": 1762294129.2357757
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Bot em a\u00e7\u00e3o! [7/10]",
+    "timestamp": 1762294130.2469423
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Mensagem autom\u00e1tica do bot [8/10]",
+    "timestamp": 1762294131.2524168
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Como est\u00e3o? [9/10]",
+    "timestamp": 1762294132.2591257
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Bot em a\u00e7\u00e3o! [10/10]",
+    "timestamp": 1762294133.2650247
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Mensagem autom\u00e1tica do bot [1/10]",
+    "timestamp": 1762294163.820174
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Rel\u00f3gios sincronizados! [2/10]",
+    "timestamp": 1762294164.8255699
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Rel\u00f3gios sincronizados! [3/10]",
+    "timestamp": 1762294165.831039
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Sistemas distribu\u00eddos \u00e9 legal! [4/10]",
+    "timestamp": 1762294166.8363674
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Ol\u00e1 pessoal! [5/10]",
+    "timestamp": 1762294167.8421464
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Mensagem autom\u00e1tica do bot [6/10]",
+    "timestamp": 1762294168.8488064
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Mensagem autom\u00e1tica do bot [7/10]",
+    "timestamp": 1762294169.8550396
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Ol\u00e1 pessoal! [8/10]",
+    "timestamp": 1762294170.861029
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "MessagePack \u00e9 eficiente [9/10]",
+    "timestamp": 1762294171.8684464
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Algu\u00e9m a\u00ed? [10/10]",
+    "timestamp": 1762294172.874275
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Mensagem autom\u00e1tica do bot [1/10]",
+    "timestamp": 1762294196.4349976
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Mensagem autom\u00e1tica do bot [2/10]",
+    "timestamp": 1762294197.440907
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Ol\u00e1 pessoal! [3/10]",
+    "timestamp": 1762294198.446744
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "MessagePack \u00e9 eficiente [4/10]",
+    "timestamp": 1762294199.452385
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Ol\u00e1 pessoal! [5/10]",
+    "timestamp": 1762294200.4583583
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "MessagePack \u00e9 eficiente [6/10]",
+    "timestamp": 1762294201.4664443
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Sistemas distribu\u00eddos \u00e9 legal! [7/10]",
+    "timestamp": 1762294202.4720538
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "MessagePack \u00e9 eficiente [8/10]",
+    "timestamp": 1762294203.4776537
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Mensagem autom\u00e1tica do bot [9/10]",
+    "timestamp": 1762294204.4859521
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "MessagePack \u00e9 eficiente [10/10]",
+    "timestamp": 1762294205.4921677
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Rel\u00f3gios sincronizados! [1/10]",
+    "timestamp": 1762294219.5322053
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Algu\u00e9m a\u00ed? [2/10]",
+    "timestamp": 1762294220.538816
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Bot em a\u00e7\u00e3o! [3/10]",
+    "timestamp": 1762294221.5452263
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Ol\u00e1 pessoal! [4/10]",
+    "timestamp": 1762294222.5509174
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Bot em a\u00e7\u00e3o! [5/10]",
+    "timestamp": 1762294223.5571144
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Ol\u00e1 pessoal! [6/10]",
+    "timestamp": 1762294224.5620933
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Testando o sistema [7/10]",
+    "timestamp": 1762294225.5683687
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Sistemas distribu\u00eddos \u00e9 legal! [8/10]",
+    "timestamp": 1762294226.5741882
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Testando o sistema [9/10]",
+    "timestamp": 1762294227.5800095
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Bot em a\u00e7\u00e3o! [10/10]",
+    "timestamp": 1762294228.586012
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Testando o sistema [1/10]",
+    "timestamp": 1762294247.6155229
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "MessagePack \u00e9 eficiente [2/10]",
+    "timestamp": 1762294248.6218872
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Ol\u00e1 pessoal! [3/10]",
+    "timestamp": 1762294249.6276476
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Rel\u00f3gios sincronizados! [4/10]",
+    "timestamp": 1762294250.6338208
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Mensagem autom\u00e1tica do bot [5/10]",
+    "timestamp": 1762294251.6422641
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Como est\u00e3o? [6/10]",
+    "timestamp": 1762294252.6505024
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "MessagePack \u00e9 eficiente [7/10]",
+    "timestamp": 1762294253.6563556
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Como est\u00e3o? [8/10]",
+    "timestamp": 1762294254.6690664
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Sistemas distribu\u00eddos \u00e9 legal! [9/10]",
+    "timestamp": 1762294255.6761394
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Bot em a\u00e7\u00e3o! [10/10]",
+    "timestamp": 1762294256.681819
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Mensagem autom\u00e1tica do bot [1/10]",
+    "timestamp": 1762294271.7805548
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "ZeroMQ funcionando [2/10]",
+    "timestamp": 1762294272.7868636
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Bot em a\u00e7\u00e3o! [3/10]",
+    "timestamp": 1762294273.793653
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "ZeroMQ funcionando [4/10]",
+    "timestamp": 1762294274.8006332
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Rel\u00f3gios sincronizados! [5/10]",
+    "timestamp": 1762294275.8099601
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Ol\u00e1 pessoal! [6/10]",
+    "timestamp": 1762294276.8181834
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Testando o sistema [7/10]",
+    "timestamp": 1762294277.8287065
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "MessagePack \u00e9 eficiente [8/10]",
+    "timestamp": 1762294278.8370361
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "ZeroMQ funcionando [9/10]",
+    "timestamp": 1762294279.8437104
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Rel\u00f3gios sincronizados! [10/10]",
+    "timestamp": 1762294280.8526652
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Rel\u00f3gios sincronizados! [1/10]",
+    "timestamp": 1762294302.6524992
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Rel\u00f3gios sincronizados! [2/10]",
+    "timestamp": 1762294303.659619
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Testando o sistema [3/10]",
+    "timestamp": 1762294304.66669
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Mensagem autom\u00e1tica do bot [4/10]",
+    "timestamp": 1762294305.6721885
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Ol\u00e1 pessoal! [5/10]",
+    "timestamp": 1762294306.6771822
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Algu\u00e9m a\u00ed? [6/10]",
+    "timestamp": 1762294307.6829996
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "MessagePack \u00e9 eficiente [7/10]",
+    "timestamp": 1762294308.6892161
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Sistemas distribu\u00eddos \u00e9 legal! [8/10]",
+    "timestamp": 1762294309.6977656
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Bot em a\u00e7\u00e3o! [9/10]",
+    "timestamp": 1762294310.7062633
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Rel\u00f3gios sincronizados! [10/10]",
+    "timestamp": 1762294311.7124295
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Bot em a\u00e7\u00e3o! [1/10]",
+    "timestamp": 1762294327.5199018
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Sistemas distribu\u00eddos \u00e9 legal! [2/10]",
+    "timestamp": 1762294328.5257673
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Como est\u00e3o? [3/10]",
+    "timestamp": 1762294329.531713
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Testando o sistema [4/10]",
+    "timestamp": 1762294330.5403705
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Rel\u00f3gios sincronizados! [5/10]",
+    "timestamp": 1762294331.546778
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Sistemas distribu\u00eddos \u00e9 legal! [6/10]",
+    "timestamp": 1762294332.5526106
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "MessagePack \u00e9 eficiente [7/10]",
+    "timestamp": 1762294333.558219
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Rel\u00f3gios sincronizados! [8/10]",
+    "timestamp": 1762294334.564027
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Mensagem autom\u00e1tica do bot [9/10]",
+    "timestamp": 1762294335.5710063
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Testando o sistema [10/10]",
+    "timestamp": 1762294336.5780406
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Como est\u00e3o? [1/10]",
+    "timestamp": 1762294361.2865312
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "MessagePack \u00e9 eficiente [2/10]",
+    "timestamp": 1762294362.2923505
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Como est\u00e3o? [3/10]",
+    "timestamp": 1762294363.303679
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "ZeroMQ funcionando [4/10]",
+    "timestamp": 1762294364.3101046
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Como est\u00e3o? [5/10]",
+    "timestamp": 1762294365.316084
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Bot em a\u00e7\u00e3o! [6/10]",
+    "timestamp": 1762294366.322053
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Mensagem autom\u00e1tica do bot [7/10]",
+    "timestamp": 1762294367.3293881
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "MessagePack \u00e9 eficiente [8/10]",
+    "timestamp": 1762294368.3353925
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Ol\u00e1 pessoal! [9/10]",
+    "timestamp": 1762294369.3443906
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Como est\u00e3o? [10/10]",
+    "timestamp": 1762294370.351156
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Como est\u00e3o? [1/10]",
+    "timestamp": 1762294396.2301164
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Bot em a\u00e7\u00e3o! [2/10]",
+    "timestamp": 1762294397.2363217
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "MessagePack \u00e9 eficiente [3/10]",
+    "timestamp": 1762294398.2502627
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "MessagePack \u00e9 eficiente [4/10]",
+    "timestamp": 1762294399.256522
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Mensagem autom\u00e1tica do bot [5/10]",
+    "timestamp": 1762294400.2629366
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Ol\u00e1 pessoal! [6/10]",
+    "timestamp": 1762294401.2694259
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Rel\u00f3gios sincronizados! [7/10]",
+    "timestamp": 1762294402.2759995
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Rel\u00f3gios sincronizados! [8/10]",
+    "timestamp": 1762294403.282459
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Testando o sistema [9/10]",
+    "timestamp": 1762294404.2887611
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Mensagem autom\u00e1tica do bot [10/10]",
+    "timestamp": 1762294405.295325
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Como est\u00e3o? [1/10]",
+    "timestamp": 1762294428.2695043
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Rel\u00f3gios sincronizados! [2/10]",
+    "timestamp": 1762294429.2788024
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Sistemas distribu\u00eddos \u00e9 legal! [3/10]",
+    "timestamp": 1762294430.3019006
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Como est\u00e3o? [4/10]",
+    "timestamp": 1762294431.308375
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Algu\u00e9m a\u00ed? [5/10]",
+    "timestamp": 1762294432.3137264
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Rel\u00f3gios sincronizados! [6/10]",
+    "timestamp": 1762294433.3202653
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "ZeroMQ funcionando [7/10]",
+    "timestamp": 1762294434.3274894
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Algu\u00e9m a\u00ed? [8/10]",
+    "timestamp": 1762294435.3346035
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "ZeroMQ funcionando [9/10]",
+    "timestamp": 1762294436.3407335
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Como est\u00e3o? [10/10]",
+    "timestamp": 1762294437.3464966
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Como est\u00e3o? [1/10]",
+    "timestamp": 1762294464.9889894
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Testando o sistema [2/10]",
+    "timestamp": 1762294465.9949362
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Testando o sistema [3/10]",
+    "timestamp": 1762294467.0043857
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Algu\u00e9m a\u00ed? [4/10]",
+    "timestamp": 1762294468.0104392
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Algu\u00e9m a\u00ed? [5/10]",
+    "timestamp": 1762294469.0174763
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Algu\u00e9m a\u00ed? [6/10]",
+    "timestamp": 1762294470.023567
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Rel\u00f3gios sincronizados! [7/10]",
+    "timestamp": 1762294471.034951
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Algu\u00e9m a\u00ed? [8/10]",
+    "timestamp": 1762294472.0407596
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Algu\u00e9m a\u00ed? [9/10]",
+    "timestamp": 1762294473.0469198
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Rel\u00f3gios sincronizados! [10/10]",
+    "timestamp": 1762294474.0531213
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "MessagePack \u00e9 eficiente [1/10]",
+    "timestamp": 1762294504.0811741
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "MessagePack \u00e9 eficiente [2/10]",
+    "timestamp": 1762294505.0884483
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Mensagem autom\u00e1tica do bot [3/10]",
+    "timestamp": 1762294506.094791
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Rel\u00f3gios sincronizados! [4/10]",
+    "timestamp": 1762294507.1010294
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Testando o sistema [5/10]",
+    "timestamp": 1762294508.1071885
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Algu\u00e9m a\u00ed? [6/10]",
+    "timestamp": 1762294509.114988
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "ZeroMQ funcionando [7/10]",
+    "timestamp": 1762294510.1216228
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "MessagePack \u00e9 eficiente [8/10]",
+    "timestamp": 1762294511.127142
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Sistemas distribu\u00eddos \u00e9 legal! [9/10]",
+    "timestamp": 1762294512.1361458
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Bot em a\u00e7\u00e3o! [10/10]",
+    "timestamp": 1762294513.1428514
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Algu\u00e9m a\u00ed? [1/10]",
+    "timestamp": 1762294526.5269525
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "ZeroMQ funcionando [2/10]",
+    "timestamp": 1762294527.5330968
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Ol\u00e1 pessoal! [3/10]",
+    "timestamp": 1762294528.5394037
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Rel\u00f3gios sincronizados! [4/10]",
+    "timestamp": 1762294529.5466323
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Ol\u00e1 pessoal! [5/10]",
+    "timestamp": 1762294530.5541723
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Ol\u00e1 pessoal! [6/10]",
+    "timestamp": 1762294531.561147
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Rel\u00f3gios sincronizados! [7/10]",
+    "timestamp": 1762294532.5670538
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Como est\u00e3o? [8/10]",
+    "timestamp": 1762294533.576413
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "ZeroMQ funcionando [9/10]",
+    "timestamp": 1762294534.582935
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Sistemas distribu\u00eddos \u00e9 legal! [10/10]",
+    "timestamp": 1762294535.5909894
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "MessagePack \u00e9 eficiente [1/10]",
+    "timestamp": 1762294555.390209
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Ol\u00e1 pessoal! [2/10]",
+    "timestamp": 1762294556.399687
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Bot em a\u00e7\u00e3o! [3/10]",
+    "timestamp": 1762294557.4073825
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "MessagePack \u00e9 eficiente [4/10]",
+    "timestamp": 1762294558.413166
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Algu\u00e9m a\u00ed? [5/10]",
+    "timestamp": 1762294559.4196062
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Rel\u00f3gios sincronizados! [6/10]",
+    "timestamp": 1762294560.4257183
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Testando o sistema [7/10]",
+    "timestamp": 1762294561.432093
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "ZeroMQ funcionando [8/10]",
+    "timestamp": 1762294562.4390585
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Como est\u00e3o? [9/10]",
+    "timestamp": 1762294563.4473534
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Como est\u00e3o? [10/10]",
+    "timestamp": 1762294564.4541342
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Algu\u00e9m a\u00ed? [1/10]",
+    "timestamp": 1762294593.7806098
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "MessagePack \u00e9 eficiente [2/10]",
+    "timestamp": 1762294594.7868938
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Ol\u00e1 pessoal! [3/10]",
+    "timestamp": 1762294595.793344
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Ol\u00e1 pessoal! [4/10]",
+    "timestamp": 1762294596.7998738
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Bot em a\u00e7\u00e3o! [5/10]",
+    "timestamp": 1762294597.809564
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "ZeroMQ funcionando [6/10]",
+    "timestamp": 1762294598.8164232
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "ZeroMQ funcionando [7/10]",
+    "timestamp": 1762294599.822373
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Testando o sistema [8/10]",
+    "timestamp": 1762294600.8379893
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "MessagePack \u00e9 eficiente [9/10]",
+    "timestamp": 1762294601.8441908
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Como est\u00e3o? [10/10]",
+    "timestamp": 1762294602.85014
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Testando o sistema [1/10]",
+    "timestamp": 1762294627.6203942
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Sistemas distribu\u00eddos \u00e9 legal! [2/10]",
+    "timestamp": 1762294628.6267312
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Sistemas distribu\u00eddos \u00e9 legal! [3/10]",
+    "timestamp": 1762294629.6334553
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Algu\u00e9m a\u00ed? [4/10]",
+    "timestamp": 1762294630.6399288
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "ZeroMQ funcionando [5/10]",
+    "timestamp": 1762294631.646719
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Como est\u00e3o? [6/10]",
+    "timestamp": 1762294632.654641
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Ol\u00e1 pessoal! [7/10]",
+    "timestamp": 1762294633.6738973
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Sistemas distribu\u00eddos \u00e9 legal! [8/10]",
+    "timestamp": 1762294634.6835132
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Testando o sistema [9/10]",
+    "timestamp": 1762294635.6910615
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Algu\u00e9m a\u00ed? [10/10]",
+    "timestamp": 1762294636.6976223
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Rel\u00f3gios sincronizados! [1/10]",
+    "timestamp": 1762294667.1854346
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Rel\u00f3gios sincronizados! [2/10]",
+    "timestamp": 1762294668.1919966
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Como est\u00e3o? [3/10]",
+    "timestamp": 1762294669.1998103
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Sistemas distribu\u00eddos \u00e9 legal! [4/10]",
+    "timestamp": 1762294670.2065663
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Ol\u00e1 pessoal! [5/10]",
+    "timestamp": 1762294671.2133224
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Rel\u00f3gios sincronizados! [6/10]",
+    "timestamp": 1762294672.2198958
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "MessagePack \u00e9 eficiente [7/10]",
+    "timestamp": 1762294673.228966
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Como est\u00e3o? [8/10]",
+    "timestamp": 1762294674.2359912
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Testando o sistema [9/10]",
+    "timestamp": 1762294675.2421608
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Bot em a\u00e7\u00e3o! [10/10]",
+    "timestamp": 1762294676.2482176
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Sistemas distribu\u00eddos \u00e9 legal! [1/10]",
+    "timestamp": 1762294706.4684334
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Algu\u00e9m a\u00ed? [2/10]",
+    "timestamp": 1762294707.4751537
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "MessagePack \u00e9 eficiente [3/10]",
+    "timestamp": 1762294708.4818661
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Como est\u00e3o? [4/10]",
+    "timestamp": 1762294709.4888206
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Bot em a\u00e7\u00e3o! [5/10]",
+    "timestamp": 1762294710.4953537
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Mensagem autom\u00e1tica do bot [6/10]",
+    "timestamp": 1762294711.5024834
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Bot em a\u00e7\u00e3o! [7/10]",
+    "timestamp": 1762294712.5091124
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Algu\u00e9m a\u00ed? [8/10]",
+    "timestamp": 1762294713.515944
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Algu\u00e9m a\u00ed? [9/10]",
+    "timestamp": 1762294714.5223627
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Rel\u00f3gios sincronizados! [10/10]",
+    "timestamp": 1762294715.5301638
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "ZeroMQ funcionando [1/10]",
+    "timestamp": 1762294738.8906314
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Rel\u00f3gios sincronizados! [2/10]",
+    "timestamp": 1762294739.896964
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "MessagePack \u00e9 eficiente [3/10]",
+    "timestamp": 1762294740.9035208
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "ZeroMQ funcionando [4/10]",
+    "timestamp": 1762294741.9101183
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Bot em a\u00e7\u00e3o! [5/10]",
+    "timestamp": 1762294742.9205937
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "MessagePack \u00e9 eficiente [6/10]",
+    "timestamp": 1762294743.9285262
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "ZeroMQ funcionando [7/10]",
+    "timestamp": 1762294744.9365666
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Algu\u00e9m a\u00ed? [8/10]",
+    "timestamp": 1762294745.9429634
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "MessagePack \u00e9 eficiente [9/10]",
+    "timestamp": 1762294746.9491618
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "MessagePack \u00e9 eficiente [10/10]",
+    "timestamp": 1762294747.9555686
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Ol\u00e1 pessoal! [1/10]",
+    "timestamp": 1762294778.2966318
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Bot em a\u00e7\u00e3o! [2/10]",
+    "timestamp": 1762294779.303557
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Rel\u00f3gios sincronizados! [3/10]",
+    "timestamp": 1762294780.3104138
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Mensagem autom\u00e1tica do bot [4/10]",
+    "timestamp": 1762294781.3172271
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Ol\u00e1 pessoal! [5/10]",
+    "timestamp": 1762294782.3267238
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Testando o sistema [6/10]",
+    "timestamp": 1762294783.335591
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Ol\u00e1 pessoal! [7/10]",
+    "timestamp": 1762294784.342792
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Como est\u00e3o? [8/10]",
+    "timestamp": 1762294785.3522763
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Bot em a\u00e7\u00e3o! [9/10]",
+    "timestamp": 1762294786.3586452
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "ZeroMQ funcionando [10/10]",
+    "timestamp": 1762294787.3652194
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Mensagem autom\u00e1tica do bot [1/10]",
+    "timestamp": 1762294815.7676108
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Rel\u00f3gios sincronizados! [2/10]",
+    "timestamp": 1762294816.7746816
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Rel\u00f3gios sincronizados! [3/10]",
+    "timestamp": 1762294817.7817848
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Como est\u00e3o? [4/10]",
+    "timestamp": 1762294818.7883396
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Mensagem autom\u00e1tica do bot [5/10]",
+    "timestamp": 1762294819.7951114
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Sistemas distribu\u00eddos \u00e9 legal! [6/10]",
+    "timestamp": 1762294820.802015
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Rel\u00f3gios sincronizados! [7/10]",
+    "timestamp": 1762294821.8089702
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Ol\u00e1 pessoal! [8/10]",
+    "timestamp": 1762294822.8157809
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Rel\u00f3gios sincronizados! [9/10]",
+    "timestamp": 1762294823.822249
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Sistemas distribu\u00eddos \u00e9 legal! [10/10]",
+    "timestamp": 1762294824.832255
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Testando o sistema [1/10]",
+    "timestamp": 1762294846.0443873
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Como est\u00e3o? [2/10]",
+    "timestamp": 1762294847.0548146
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Bot em a\u00e7\u00e3o! [3/10]",
+    "timestamp": 1762294848.0610251
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Algu\u00e9m a\u00ed? [4/10]",
+    "timestamp": 1762294849.0675082
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Como est\u00e3o? [5/10]",
+    "timestamp": 1762294850.0823526
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Testando o sistema [6/10]",
+    "timestamp": 1762294851.089447
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Mensagem autom\u00e1tica do bot [7/10]",
+    "timestamp": 1762294852.1020632
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Bot em a\u00e7\u00e3o! [8/10]",
+    "timestamp": 1762294853.1081767
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Como est\u00e3o? [9/10]",
+    "timestamp": 1762294854.1158178
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Bot em a\u00e7\u00e3o! [10/10]",
+    "timestamp": 1762294855.122279
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Algu\u00e9m a\u00ed? [1/10]",
+    "timestamp": 1762294873.8327487
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Algu\u00e9m a\u00ed? [2/10]",
+    "timestamp": 1762294874.8395817
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Algu\u00e9m a\u00ed? [3/10]",
+    "timestamp": 1762294875.8470232
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Sistemas distribu\u00eddos \u00e9 legal! [4/10]",
+    "timestamp": 1762294876.859649
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Sistemas distribu\u00eddos \u00e9 legal! [5/10]",
+    "timestamp": 1762294877.866821
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "ZeroMQ funcionando [6/10]",
+    "timestamp": 1762294878.8733704
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Como est\u00e3o? [7/10]",
+    "timestamp": 1762294879.8834445
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Algu\u00e9m a\u00ed? [8/10]",
+    "timestamp": 1762294880.8910816
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "MessagePack \u00e9 eficiente [9/10]",
+    "timestamp": 1762294881.9000523
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Como est\u00e3o? [10/10]",
+    "timestamp": 1762294882.9081268
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Mensagem autom\u00e1tica do bot [1/10]",
+    "timestamp": 1762294913.206955
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Mensagem autom\u00e1tica do bot [2/10]",
+    "timestamp": 1762294914.213612
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Sistemas distribu\u00eddos \u00e9 legal! [3/10]",
+    "timestamp": 1762294915.2202697
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Sistemas distribu\u00eddos \u00e9 legal! [4/10]",
+    "timestamp": 1762294916.227506
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Rel\u00f3gios sincronizados! [5/10]",
+    "timestamp": 1762294917.2362812
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Bot em a\u00e7\u00e3o! [6/10]",
+    "timestamp": 1762294918.2462184
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Sistemas distribu\u00eddos \u00e9 legal! [7/10]",
+    "timestamp": 1762294919.2530491
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "MessagePack \u00e9 eficiente [8/10]",
+    "timestamp": 1762294920.2600462
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "ZeroMQ funcionando [9/10]",
+    "timestamp": 1762294921.2674282
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Mensagem autom\u00e1tica do bot [10/10]",
+    "timestamp": 1762294922.274414
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Como est\u00e3o? [1/10]",
+    "timestamp": 1762294944.0363965
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Testando o sistema [2/10]",
+    "timestamp": 1762294945.0439234
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Bot em a\u00e7\u00e3o! [3/10]",
+    "timestamp": 1762294946.0511487
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Testando o sistema [4/10]",
+    "timestamp": 1762294947.0582693
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Rel\u00f3gios sincronizados! [5/10]",
+    "timestamp": 1762294948.064622
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Mensagem autom\u00e1tica do bot [6/10]",
+    "timestamp": 1762294949.0724335
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Algu\u00e9m a\u00ed? [7/10]",
+    "timestamp": 1762294950.0800793
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Ol\u00e1 pessoal! [8/10]",
+    "timestamp": 1762294951.0927339
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "ZeroMQ funcionando [9/10]",
+    "timestamp": 1762294952.0991588
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Sistemas distribu\u00eddos \u00e9 legal! [10/10]",
+    "timestamp": 1762294953.1110303
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Ol\u00e1 pessoal! [1/10]",
+    "timestamp": 1762294981.3161058
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Mensagem autom\u00e1tica do bot [2/10]",
+    "timestamp": 1762294982.3229024
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Algu\u00e9m a\u00ed? [3/10]",
+    "timestamp": 1762294983.330013
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Sistemas distribu\u00eddos \u00e9 legal! [4/10]",
+    "timestamp": 1762294984.3377051
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Algu\u00e9m a\u00ed? [5/10]",
+    "timestamp": 1762294985.3520923
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "ZeroMQ funcionando [6/10]",
+    "timestamp": 1762294986.3588989
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Algu\u00e9m a\u00ed? [7/10]",
+    "timestamp": 1762294987.3679187
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Testando o sistema [8/10]",
+    "timestamp": 1762294988.375103
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Bot em a\u00e7\u00e3o! [9/10]",
+    "timestamp": 1762294989.3856764
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Ol\u00e1 pessoal! [10/10]",
+    "timestamp": 1762294990.407019
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Bot em a\u00e7\u00e3o! [1/10]",
+    "timestamp": 1762295015.4380512
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Algu\u00e9m a\u00ed? [2/10]",
+    "timestamp": 1762295016.4450777
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Rel\u00f3gios sincronizados! [3/10]",
+    "timestamp": 1762295017.454327
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Bot em a\u00e7\u00e3o! [4/10]",
+    "timestamp": 1762295018.4610763
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Rel\u00f3gios sincronizados! [5/10]",
+    "timestamp": 1762295019.4679885
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Ol\u00e1 pessoal! [6/10]",
+    "timestamp": 1762295020.4750526
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Como est\u00e3o? [7/10]",
+    "timestamp": 1762295021.4859304
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "ZeroMQ funcionando [8/10]",
+    "timestamp": 1762295022.4951544
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Sistemas distribu\u00eddos \u00e9 legal! [9/10]",
+    "timestamp": 1762295023.5022855
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Algu\u00e9m a\u00ed? [10/10]",
+    "timestamp": 1762295024.5093396
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Ol\u00e1 pessoal! [1/10]",
+    "timestamp": 1762295044.0401638
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "ZeroMQ funcionando [2/10]",
+    "timestamp": 1762295045.0476158
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Rel\u00f3gios sincronizados! [3/10]",
+    "timestamp": 1762295046.0547366
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Algu\u00e9m a\u00ed? [4/10]",
+    "timestamp": 1762295047.0617764
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Mensagem autom\u00e1tica do bot [5/10]",
+    "timestamp": 1762295048.0696437
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Testando o sistema [6/10]",
+    "timestamp": 1762295049.0805175
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Ol\u00e1 pessoal! [7/10]",
+    "timestamp": 1762295050.0876176
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Rel\u00f3gios sincronizados! [8/10]",
+    "timestamp": 1762295051.0965025
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "MessagePack \u00e9 eficiente [9/10]",
+    "timestamp": 1762295052.1045947
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Mensagem autom\u00e1tica do bot [10/10]",
+    "timestamp": 1762295053.1129558
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Sistemas distribu\u00eddos \u00e9 legal! [1/10]",
+    "timestamp": 1762295069.350634
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Bot em a\u00e7\u00e3o! [2/10]",
+    "timestamp": 1762295070.3581073
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Bot em a\u00e7\u00e3o! [3/10]",
+    "timestamp": 1762295071.3663936
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "MessagePack \u00e9 eficiente [4/10]",
+    "timestamp": 1762295072.3735025
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Sistemas distribu\u00eddos \u00e9 legal! [5/10]",
+    "timestamp": 1762295073.380819
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Como est\u00e3o? [6/10]",
+    "timestamp": 1762295074.3917134
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Bot em a\u00e7\u00e3o! [7/10]",
+    "timestamp": 1762295075.4009175
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Bot em a\u00e7\u00e3o! [8/10]",
+    "timestamp": 1762295076.4084303
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Testando o sistema [9/10]",
+    "timestamp": 1762295077.4162202
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Algu\u00e9m a\u00ed? [10/10]",
+    "timestamp": 1762295078.4236016
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Bot em a\u00e7\u00e3o! [1/10]",
+    "timestamp": 1762295104.133979
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Bot em a\u00e7\u00e3o! [2/10]",
+    "timestamp": 1762295105.1416519
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Ol\u00e1 pessoal! [3/10]",
+    "timestamp": 1762295106.1496687
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Testando o sistema [4/10]",
+    "timestamp": 1762295107.156805
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Rel\u00f3gios sincronizados! [5/10]",
+    "timestamp": 1762295108.1642406
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Mensagem autom\u00e1tica do bot [6/10]",
+    "timestamp": 1762295109.1716166
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Bot em a\u00e7\u00e3o! [7/10]",
+    "timestamp": 1762295110.179756
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Rel\u00f3gios sincronizados! [8/10]",
+    "timestamp": 1762295111.1869943
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "MessagePack \u00e9 eficiente [9/10]",
+    "timestamp": 1762295112.19437
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "ZeroMQ funcionando [10/10]",
+    "timestamp": 1762295113.2026725
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "MessagePack \u00e9 eficiente [1/10]",
+    "timestamp": 1762295136.9467075
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "ZeroMQ funcionando [2/10]",
+    "timestamp": 1762295137.9561777
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Bot em a\u00e7\u00e3o! [3/10]",
+    "timestamp": 1762295138.9635313
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Sistemas distribu\u00eddos \u00e9 legal! [4/10]",
+    "timestamp": 1762295139.9708793
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Bot em a\u00e7\u00e3o! [5/10]",
+    "timestamp": 1762295140.9824822
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "ZeroMQ funcionando [6/10]",
+    "timestamp": 1762295141.9960976
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Ol\u00e1 pessoal! [7/10]",
+    "timestamp": 1762295143.003249
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "ZeroMQ funcionando [8/10]",
+    "timestamp": 1762295144.0137963
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Sistemas distribu\u00eddos \u00e9 legal! [9/10]",
+    "timestamp": 1762295145.022045
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "ZeroMQ funcionando [10/10]",
+    "timestamp": 1762295146.0294063
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Algu\u00e9m a\u00ed? [1/10]",
+    "timestamp": 1762295175.1621013
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Mensagem autom\u00e1tica do bot [2/10]",
+    "timestamp": 1762295176.1693895
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Bot em a\u00e7\u00e3o! [3/10]",
+    "timestamp": 1762295177.178168
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Como est\u00e3o? [4/10]",
+    "timestamp": 1762295178.185331
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Mensagem autom\u00e1tica do bot [5/10]",
+    "timestamp": 1762295179.1930254
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Rel\u00f3gios sincronizados! [6/10]",
+    "timestamp": 1762295180.2009845
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "MessagePack \u00e9 eficiente [7/10]",
+    "timestamp": 1762295181.2085493
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Bot em a\u00e7\u00e3o! [8/10]",
+    "timestamp": 1762295182.215189
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Mensagem autom\u00e1tica do bot [9/10]",
+    "timestamp": 1762295183.2224374
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2764",
+    "message": "Rel\u00f3gios sincronizados! [10/10]",
+    "timestamp": 1762295184.230894
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "MessagePack \u00e9 eficiente [1/10]",
+    "timestamp": 1762295203.9112155
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Algu\u00e9m a\u00ed? [2/10]",
+    "timestamp": 1762295204.9191518
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "MessagePack \u00e9 eficiente [3/10]",
+    "timestamp": 1762295205.9268622
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Como est\u00e3o? [4/10]",
+    "timestamp": 1762295206.9345026
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "MessagePack \u00e9 eficiente [5/10]",
+    "timestamp": 1762295207.9431396
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "MessagePack \u00e9 eficiente [6/10]",
+    "timestamp": 1762295208.95079
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Sistemas distribu\u00eddos \u00e9 legal! [7/10]",
+    "timestamp": 1762295209.9582586
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "MessagePack \u00e9 eficiente [8/10]",
+    "timestamp": 1762295210.9669821
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Testando o sistema [9/10]",
+    "timestamp": 1762295211.9743443
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2764",
+    "message": "Sistemas distribu\u00eddos \u00e9 legal! [10/10]",
+    "timestamp": 1762295212.9817774
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "MessagePack \u00e9 eficiente [1/10]",
+    "timestamp": 1762295243.3229344
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Rel\u00f3gios sincronizados! [2/10]",
+    "timestamp": 1762295244.3310535
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Algu\u00e9m a\u00ed? [3/10]",
+    "timestamp": 1762295245.3390074
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Mensagem autom\u00e1tica do bot [4/10]",
+    "timestamp": 1762295246.3467958
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Como est\u00e3o? [5/10]",
+    "timestamp": 1762295247.3554492
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Sistemas distribu\u00eddos \u00e9 legal! [6/10]",
+    "timestamp": 1762295248.3631124
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Mensagem autom\u00e1tica do bot [7/10]",
+    "timestamp": 1762295249.3707466
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Mensagem autom\u00e1tica do bot [8/10]",
+    "timestamp": 1762295250.3780036
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Testando o sistema [9/10]",
+    "timestamp": 1762295251.3876126
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Rel\u00f3gios sincronizados! [10/10]",
+    "timestamp": 1762295252.3961353
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Bot em a\u00e7\u00e3o! [1/10]",
+    "timestamp": 1762295269.476316
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Algu\u00e9m a\u00ed? [2/10]",
+    "timestamp": 1762295270.485541
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "ZeroMQ funcionando [3/10]",
+    "timestamp": 1762295271.492139
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Rel\u00f3gios sincronizados! [4/10]",
+    "timestamp": 1762295272.5016553
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Bot em a\u00e7\u00e3o! [5/10]",
+    "timestamp": 1762295273.509254
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Ol\u00e1 pessoal! [6/10]",
+    "timestamp": 1762295274.5166142
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Rel\u00f3gios sincronizados! [7/10]",
+    "timestamp": 1762295275.525491
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Testando o sistema [8/10]",
+    "timestamp": 1762295276.5387776
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Como est\u00e3o? [9/10]",
+    "timestamp": 1762295277.5470998
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Mensagem autom\u00e1tica do bot [10/10]",
+    "timestamp": 1762295278.5545983
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "MessagePack \u00e9 eficiente [1/10]",
+    "timestamp": 1762295304.5464802
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "MessagePack \u00e9 eficiente [2/10]",
+    "timestamp": 1762295305.563134
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "MessagePack \u00e9 eficiente [3/10]",
+    "timestamp": 1762295306.5718625
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Como est\u00e3o? [4/10]",
+    "timestamp": 1762295307.5814874
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "ZeroMQ funcionando [5/10]",
+    "timestamp": 1762295308.5910325
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Bot em a\u00e7\u00e3o! [6/10]",
+    "timestamp": 1762295309.5993402
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Bot em a\u00e7\u00e3o! [7/10]",
+    "timestamp": 1762295310.6085336
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Como est\u00e3o? [8/10]",
+    "timestamp": 1762295311.6165192
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "Ol\u00e1 pessoal! [9/10]",
+    "timestamp": 1762295312.6244946
+  },
+  {
+    "channel": "random",
+    "user": "bot_2764",
+    "message": "MessagePack \u00e9 eficiente [10/10]",
+    "timestamp": 1762295313.6324127
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_5407",
+    "message": "Rel\u00f3gios sincronizados! [1/10]",
+    "timestamp": 1762372004.4369657
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_5407",
+    "message": "Algu\u00e9m a\u00ed? [2/10]",
+    "timestamp": 1762372005.4464488
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_5407",
+    "message": "Algu\u00e9m a\u00ed? [3/10]",
+    "timestamp": 1762372006.4551947
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_5407",
+    "message": "Mensagem autom\u00e1tica do bot [4/10]",
+    "timestamp": 1762372007.4643378
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_5407",
+    "message": "Sistemas distribu\u00eddos \u00e9 legal! [5/10]",
+    "timestamp": 1762372008.4796016
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_5407",
+    "message": "Testando o sistema [6/10]",
+    "timestamp": 1762372009.486185
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_5407",
+    "message": "Mensagem autom\u00e1tica do bot [7/10]",
+    "timestamp": 1762372010.4958806
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_5407",
+    "message": "Ol\u00e1 pessoal! [8/10]",
+    "timestamp": 1762372011.5041702
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_5407",
+    "message": "Ol\u00e1 pessoal! [9/10]",
+    "timestamp": 1762372012.5162504
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_5407",
+    "message": "Rel\u00f3gios sincronizados! [10/10]",
+    "timestamp": 1762372013.5278208
+  },
+  {
+    "channel": "random",
+    "user": "bot_5407",
+    "message": "ZeroMQ funcionando [1/10]",
+    "timestamp": 1762372025.158967
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_2858",
+    "message": "Mensagem autom\u00e1tica do bot [1/10]",
+    "timestamp": 1762372030.7469022
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_2858",
+    "message": "Rel\u00f3gios sincronizados! [2/10]",
+    "timestamp": 1762372031.7625165
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_2858",
+    "message": "Mensagem autom\u00e1tica do bot [3/10]",
+    "timestamp": 1762372032.7811341
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_2858",
+    "message": "Sistemas distribu\u00eddos \u00e9 legal! [4/10]",
+    "timestamp": 1762372033.7933502
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_2858",
+    "message": "Sistemas distribu\u00eddos \u00e9 legal! [5/10]",
+    "timestamp": 1762372034.8064077
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_2858",
+    "message": "Ol\u00e1 pessoal! [6/10]",
+    "timestamp": 1762372035.8135126
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_2858",
+    "message": "Testando o sistema [7/10]",
+    "timestamp": 1762372036.8251514
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_2858",
+    "message": "Sistemas distribu\u00eddos \u00e9 legal! [8/10]",
+    "timestamp": 1762372037.8332705
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_2858",
+    "message": "Rel\u00f3gios sincronizados! [9/10]",
+    "timestamp": 1762372038.840421
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_2858",
+    "message": "Como est\u00e3o? [10/10]",
+    "timestamp": 1762372039.8489287
+  },
+  {
+    "channel": "random",
+    "user": "bot_2858",
+    "message": "Como est\u00e3o? [1/10]",
+    "timestamp": 1762372063.6221552
+  },
+  {
+    "channel": "random",
+    "user": "bot_2858",
+    "message": "Testando o sistema [2/10]",
+    "timestamp": 1762372064.630402
+  },
+  {
+    "channel": "random",
+    "user": "bot_2858",
+    "message": "Mensagem autom\u00e1tica do bot [3/10]",
+    "timestamp": 1762372065.6450932
+  },
+  {
+    "channel": "random",
+    "user": "bot_2858",
+    "message": "Bot em a\u00e7\u00e3o! [4/10]",
+    "timestamp": 1762372066.6527913
+  },
+  {
+    "channel": "random",
+    "user": "bot_2858",
+    "message": "Bot em a\u00e7\u00e3o! [5/10]",
+    "timestamp": 1762372067.6608229
+  },
+  {
+    "channel": "random",
+    "user": "bot_2858",
+    "message": "MessagePack \u00e9 eficiente [6/10]",
+    "timestamp": 1762372068.6692467
+  },
+  {
+    "channel": "random",
+    "user": "bot_2858",
+    "message": "MessagePack \u00e9 eficiente [7/10]",
+    "timestamp": 1762372069.6782284
+  },
+  {
+    "channel": "random",
+    "user": "bot_2858",
+    "message": "Rel\u00f3gios sincronizados! [8/10]",
+    "timestamp": 1762372070.6916275
+  },
+  {
+    "channel": "random",
+    "user": "bot_2858",
+    "message": "MessagePack \u00e9 eficiente [9/10]",
+    "timestamp": 1762372071.7030506
+  },
+  {
+    "channel": "random",
+    "user": "bot_2858",
+    "message": "ZeroMQ funcionando [10/10]",
+    "timestamp": 1762372072.711141
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2858",
+    "message": "Sistemas distribu\u00eddos \u00e9 legal! [1/10]",
+    "timestamp": 1762372094.298334
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2858",
+    "message": "Sistemas distribu\u00eddos \u00e9 legal! [2/10]",
+    "timestamp": 1762372095.3064673
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2858",
+    "message": "Mensagem autom\u00e1tica do bot [3/10]",
+    "timestamp": 1762372096.321127
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2858",
+    "message": "Como est\u00e3o? [4/10]",
+    "timestamp": 1762372097.328906
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2858",
+    "message": "ZeroMQ funcionando [5/10]",
+    "timestamp": 1762372098.3384721
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2858",
+    "message": "Mensagem autom\u00e1tica do bot [6/10]",
+    "timestamp": 1762372099.3468864
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2858",
+    "message": "Testando o sistema [7/10]",
+    "timestamp": 1762372100.356046
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2858",
+    "message": "ZeroMQ funcionando [8/10]",
+    "timestamp": 1762372101.373746
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2858",
+    "message": "Algu\u00e9m a\u00ed? [9/10]",
+    "timestamp": 1762372102.3816626
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2858",
+    "message": "Ol\u00e1 pessoal! [10/10]",
+    "timestamp": 1762372103.3938563
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2858",
+    "message": "Sistemas distribu\u00eddos \u00e9 legal! [1/10]",
+    "timestamp": 1762372130.8604252
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2858",
+    "message": "Sistemas distribu\u00eddos \u00e9 legal! [2/10]",
+    "timestamp": 1762372131.868677
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2858",
+    "message": "Mensagem autom\u00e1tica do bot [3/10]",
+    "timestamp": 1762372132.880746
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2858",
+    "message": "Mensagem autom\u00e1tica do bot [4/10]",
+    "timestamp": 1762372133.8885784
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2858",
+    "message": "ZeroMQ funcionando [5/10]",
+    "timestamp": 1762372134.9026551
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2858",
+    "message": "MessagePack \u00e9 eficiente [6/10]",
+    "timestamp": 1762372135.9146557
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2858",
+    "message": "Mensagem autom\u00e1tica do bot [7/10]",
+    "timestamp": 1762372136.9219975
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2858",
+    "message": "Sistemas distribu\u00eddos \u00e9 legal! [8/10]",
+    "timestamp": 1762372137.9299433
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2858",
+    "message": "Ol\u00e1 pessoal! [9/10]",
+    "timestamp": 1762372138.9422767
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2858",
+    "message": "ZeroMQ funcionando [10/10]",
+    "timestamp": 1762372139.9536214
+  },
+  {
+    "channel": "random",
+    "user": "bot_2858",
+    "message": "Sistemas distribu\u00eddos \u00e9 legal! [1/10]",
+    "timestamp": 1762372166.2099361
+  },
+  {
+    "channel": "random",
+    "user": "bot_2858",
+    "message": "Como est\u00e3o? [2/10]",
+    "timestamp": 1762372167.218323
+  },
+  {
+    "channel": "random",
+    "user": "bot_2858",
+    "message": "Algu\u00e9m a\u00ed? [3/10]",
+    "timestamp": 1762372168.2297807
+  },
+  {
+    "channel": "random",
+    "user": "bot_2858",
+    "message": "Algu\u00e9m a\u00ed? [4/10]",
+    "timestamp": 1762372169.238334
+  },
+  {
+    "channel": "random",
+    "user": "bot_2858",
+    "message": "MessagePack \u00e9 eficiente [5/10]",
+    "timestamp": 1762372170.2503304
+  },
+  {
+    "channel": "random",
+    "user": "bot_2858",
+    "message": "Rel\u00f3gios sincronizados! [6/10]",
+    "timestamp": 1762372171.2588227
+  },
+  {
+    "channel": "random",
+    "user": "bot_2858",
+    "message": "Sistemas distribu\u00eddos \u00e9 legal! [7/10]",
+    "timestamp": 1762372172.2682931
+  },
+  {
+    "channel": "random",
+    "user": "bot_2858",
+    "message": "Bot em a\u00e7\u00e3o! [8/10]",
+    "timestamp": 1762372173.280101
+  },
+  {
+    "channel": "random",
+    "user": "bot_2858",
+    "message": "Sistemas distribu\u00eddos \u00e9 legal! [9/10]",
+    "timestamp": 1762372174.2877815
+  },
+  {
+    "channel": "random",
+    "user": "bot_2858",
+    "message": "Algu\u00e9m a\u00ed? [10/10]",
+    "timestamp": 1762372175.3113103
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_2858",
+    "message": "Ol\u00e1 pessoal! [1/10]",
+    "timestamp": 1762372190.7699225
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_2858",
+    "message": "Ol\u00e1 pessoal! [2/10]",
+    "timestamp": 1762372191.7773912
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_2858",
+    "message": "Rel\u00f3gios sincronizados! [3/10]",
+    "timestamp": 1762372192.7879946
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_2858",
+    "message": "Mensagem autom\u00e1tica do bot [4/10]",
+    "timestamp": 1762372193.7962055
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_2858",
+    "message": "Testando o sistema [5/10]",
+    "timestamp": 1762372194.8042984
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_2858",
+    "message": "Como est\u00e3o? [6/10]",
+    "timestamp": 1762372195.8281908
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_2858",
+    "message": "MessagePack \u00e9 eficiente [7/10]",
+    "timestamp": 1762372196.836336
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_2858",
+    "message": "Sistemas distribu\u00eddos \u00e9 legal! [8/10]",
+    "timestamp": 1762372197.8446882
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_2858",
+    "message": "Sistemas distribu\u00eddos \u00e9 legal! [9/10]",
+    "timestamp": 1762372198.8524177
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_2858",
+    "message": "MessagePack \u00e9 eficiente [10/10]",
+    "timestamp": 1762372199.8611476
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2858",
+    "message": "Sistemas distribu\u00eddos \u00e9 legal! [1/10]",
+    "timestamp": 1762372226.178071
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2858",
+    "message": "Bot em a\u00e7\u00e3o! [2/10]",
+    "timestamp": 1762372227.1883788
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2858",
+    "message": "Testando o sistema [3/10]",
+    "timestamp": 1762372228.2039816
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2858",
+    "message": "MessagePack \u00e9 eficiente [4/10]",
+    "timestamp": 1762372229.2119262
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2858",
+    "message": "Como est\u00e3o? [5/10]",
+    "timestamp": 1762372230.2199488
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2858",
+    "message": "MessagePack \u00e9 eficiente [6/10]",
+    "timestamp": 1762372231.2283778
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2858",
+    "message": "Mensagem autom\u00e1tica do bot [7/10]",
+    "timestamp": 1762372232.23783
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2858",
+    "message": "MessagePack \u00e9 eficiente [8/10]",
+    "timestamp": 1762372233.2454755
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2858",
+    "message": "Como est\u00e3o? [9/10]",
+    "timestamp": 1762372234.2565382
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2858",
+    "message": "Como est\u00e3o? [10/10]",
+    "timestamp": 1762372235.2645884
+  },
+  {
+    "channel": "random",
+    "user": "bot_2858",
+    "message": "Ol\u00e1 pessoal! [1/10]",
+    "timestamp": 1762372258.416273
+  },
+  {
+    "channel": "random",
+    "user": "bot_2858",
+    "message": "MessagePack \u00e9 eficiente [2/10]",
+    "timestamp": 1762372259.425255
+  },
+  {
+    "channel": "random",
+    "user": "bot_2858",
+    "message": "Rel\u00f3gios sincronizados! [3/10]",
+    "timestamp": 1762372260.4395707
+  },
+  {
+    "channel": "random",
+    "user": "bot_2858",
+    "message": "Ol\u00e1 pessoal! [4/10]",
+    "timestamp": 1762372261.4546864
+  },
+  {
+    "channel": "random",
+    "user": "bot_2858",
+    "message": "Ol\u00e1 pessoal! [5/10]",
+    "timestamp": 1762372262.4668262
+  },
+  {
+    "channel": "random",
+    "user": "bot_2858",
+    "message": "Bot em a\u00e7\u00e3o! [6/10]",
+    "timestamp": 1762372263.4748113
+  },
+  {
+    "channel": "random",
+    "user": "bot_2858",
+    "message": "Bot em a\u00e7\u00e3o! [7/10]",
+    "timestamp": 1762372264.483751
+  },
+  {
+    "channel": "random",
+    "user": "bot_2858",
+    "message": "Como est\u00e3o? [8/10]",
+    "timestamp": 1762372265.4934118
+  },
+  {
+    "channel": "random",
+    "user": "bot_2858",
+    "message": "Algu\u00e9m a\u00ed? [9/10]",
+    "timestamp": 1762372266.512224
+  },
+  {
+    "channel": "random",
+    "user": "bot_2858",
+    "message": "Testando o sistema [10/10]",
+    "timestamp": 1762372267.5258727
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2858",
+    "message": "Bot em a\u00e7\u00e3o! [1/10]",
+    "timestamp": 1762372289.874146
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2858",
+    "message": "Rel\u00f3gios sincronizados! [2/10]",
+    "timestamp": 1762372290.8873026
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2858",
+    "message": "Bot em a\u00e7\u00e3o! [3/10]",
+    "timestamp": 1762372291.9022822
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2858",
+    "message": "Como est\u00e3o? [4/10]",
+    "timestamp": 1762372292.917712
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2858",
+    "message": "Testando o sistema [5/10]",
+    "timestamp": 1762372293.9272978
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2858",
+    "message": "Testando o sistema [6/10]",
+    "timestamp": 1762372294.9425054
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2858",
+    "message": "Sistemas distribu\u00eddos \u00e9 legal! [7/10]",
+    "timestamp": 1762372295.951268
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2858",
+    "message": "Sistemas distribu\u00eddos \u00e9 legal! [8/10]",
+    "timestamp": 1762372296.9594204
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2858",
+    "message": "Rel\u00f3gios sincronizados! [9/10]",
+    "timestamp": 1762372297.970095
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2858",
+    "message": "Testando o sistema [10/10]",
+    "timestamp": 1762372298.983624
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_2858",
+    "message": "Bot em a\u00e7\u00e3o! [1/10]",
+    "timestamp": 1762372319.4851892
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_2858",
+    "message": "Mensagem autom\u00e1tica do bot [2/10]",
+    "timestamp": 1762372320.4978523
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_2858",
+    "message": "Rel\u00f3gios sincronizados! [3/10]",
+    "timestamp": 1762372321.5120025
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_2858",
+    "message": "Mensagem autom\u00e1tica do bot [4/10]",
+    "timestamp": 1762372322.5251665
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_2858",
+    "message": "Rel\u00f3gios sincronizados! [5/10]",
+    "timestamp": 1762372323.5341005
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_2858",
+    "message": "Sistemas distribu\u00eddos \u00e9 legal! [6/10]",
+    "timestamp": 1762372324.542587
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_2858",
+    "message": "Algu\u00e9m a\u00ed? [7/10]",
+    "timestamp": 1762372325.5535524
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_2858",
+    "message": "Bot em a\u00e7\u00e3o! [8/10]",
+    "timestamp": 1762372326.5623765
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_2858",
+    "message": "Como est\u00e3o? [9/10]",
+    "timestamp": 1762372327.5744727
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_2858",
+    "message": "ZeroMQ funcionando [10/10]",
+    "timestamp": 1762372328.5829442
+  },
+  {
+    "channel": "random",
+    "user": "bot_2858",
+    "message": "MessagePack \u00e9 eficiente [1/10]",
+    "timestamp": 1762372352.3373148
+  },
+  {
+    "channel": "random",
+    "user": "bot_2858",
+    "message": "Algu\u00e9m a\u00ed? [2/10]",
+    "timestamp": 1762372353.3473632
+  },
+  {
+    "channel": "random",
+    "user": "bot_2858",
+    "message": "Rel\u00f3gios sincronizados! [3/10]",
+    "timestamp": 1762372354.3601923
+  },
+  {
+    "channel": "random",
+    "user": "bot_2858",
+    "message": "Rel\u00f3gios sincronizados! [4/10]",
+    "timestamp": 1762372355.3674147
+  },
+  {
+    "channel": "random",
+    "user": "bot_2858",
+    "message": "Testando o sistema [5/10]",
+    "timestamp": 1762372356.3761106
+  },
+  {
+    "channel": "random",
+    "user": "bot_2858",
+    "message": "Algu\u00e9m a\u00ed? [6/10]",
+    "timestamp": 1762372357.3915408
+  },
+  {
+    "channel": "random",
+    "user": "bot_2858",
+    "message": "Como est\u00e3o? [7/10]",
+    "timestamp": 1762372358.403316
+  },
+  {
+    "channel": "random",
+    "user": "bot_2858",
+    "message": "Algu\u00e9m a\u00ed? [8/10]",
+    "timestamp": 1762372359.411723
+  },
+  {
+    "channel": "random",
+    "user": "bot_2858",
+    "message": "Como est\u00e3o? [9/10]",
+    "timestamp": 1762372360.4221601
+  },
+  {
+    "channel": "random",
+    "user": "bot_2858",
+    "message": "Ol\u00e1 pessoal! [10/10]",
+    "timestamp": 1762372361.4293697
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2858",
+    "message": "ZeroMQ funcionando [1/10]",
+    "timestamp": 1762372381.3251386
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2858",
+    "message": "Testando o sistema [2/10]",
+    "timestamp": 1762372382.3373086
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2858",
+    "message": "Testando o sistema [3/10]",
+    "timestamp": 1762372383.349215
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2858",
+    "message": "ZeroMQ funcionando [4/10]",
+    "timestamp": 1762372384.3599355
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2858",
+    "message": "Como est\u00e3o? [5/10]",
+    "timestamp": 1762372385.3755658
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2858",
+    "message": "Bot em a\u00e7\u00e3o! [6/10]",
+    "timestamp": 1762372386.3835483
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2858",
+    "message": "Algu\u00e9m a\u00ed? [7/10]",
+    "timestamp": 1762372387.3930006
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2858",
+    "message": "Testando o sistema [8/10]",
+    "timestamp": 1762372388.4002836
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2858",
+    "message": "Testando o sistema [9/10]",
+    "timestamp": 1762372389.4078841
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2858",
+    "message": "Bot em a\u00e7\u00e3o! [10/10]",
+    "timestamp": 1762372390.4165618
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_2858",
+    "message": "Algu\u00e9m a\u00ed? [1/10]",
+    "timestamp": 1762372417.66952
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_2858",
+    "message": "Bot em a\u00e7\u00e3o! [2/10]",
+    "timestamp": 1762372418.6773357
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_2858",
+    "message": "MessagePack \u00e9 eficiente [3/10]",
+    "timestamp": 1762372419.6910243
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_2858",
+    "message": "Testando o sistema [4/10]",
+    "timestamp": 1762372420.6994207
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_2858",
+    "message": "Ol\u00e1 pessoal! [5/10]",
+    "timestamp": 1762372421.7078488
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_2858",
+    "message": "Mensagem autom\u00e1tica do bot [6/10]",
+    "timestamp": 1762372422.716403
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_2858",
+    "message": "ZeroMQ funcionando [7/10]",
+    "timestamp": 1762372423.7246907
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_2858",
+    "message": "Bot em a\u00e7\u00e3o! [8/10]",
+    "timestamp": 1762372424.7366889
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_2858",
+    "message": "Como est\u00e3o? [9/10]",
+    "timestamp": 1762372425.7474768
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_2858",
+    "message": "MessagePack \u00e9 eficiente [10/10]",
+    "timestamp": 1762372426.7556746
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_2858",
+    "message": "Bot em a\u00e7\u00e3o! [1/10]",
+    "timestamp": 1762372455.9548302
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_2858",
+    "message": "Algu\u00e9m a\u00ed? [2/10]",
+    "timestamp": 1762372456.9652731
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_2858",
+    "message": "Mensagem autom\u00e1tica do bot [3/10]",
+    "timestamp": 1762372457.980351
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_2858",
+    "message": "Bot em a\u00e7\u00e3o! [4/10]",
+    "timestamp": 1762372458.989291
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_2858",
+    "message": "Testando o sistema [5/10]",
+    "timestamp": 1762372459.9992354
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_2858",
+    "message": "Bot em a\u00e7\u00e3o! [6/10]",
+    "timestamp": 1762372461.0085444
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_2858",
+    "message": "Rel\u00f3gios sincronizados! [7/10]",
+    "timestamp": 1762372462.0171518
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_2858",
+    "message": "Testando o sistema [8/10]",
+    "timestamp": 1762372463.0260062
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_2858",
+    "message": "Sistemas distribu\u00eddos \u00e9 legal! [9/10]",
+    "timestamp": 1762372464.0341733
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_2858",
+    "message": "Testando o sistema [10/10]",
+    "timestamp": 1762372465.0434558
+  },
+  {
+    "channel": "random",
+    "user": "bot_2858",
+    "message": "ZeroMQ funcionando [1/10]",
+    "timestamp": 1762372851.0008612
+  },
+  {
+    "channel": "random",
+    "user": "bot_2858",
+    "message": "Sistemas distribu\u00eddos \u00e9 legal! [2/10]",
+    "timestamp": 1762372852.0097182
+  },
+  {
+    "channel": "random",
+    "user": "bot_2858",
+    "message": "Algu\u00e9m a\u00ed? [3/10]",
+    "timestamp": 1762372853.0255442
+  },
+  {
+    "channel": "random",
+    "user": "bot_2858",
+    "message": "Ol\u00e1 pessoal! [4/10]",
+    "timestamp": 1762372854.0345452
+  },
+  {
+    "channel": "random",
+    "user": "bot_2858",
+    "message": "Testando o sistema [5/10]",
+    "timestamp": 1762372855.042852
+  },
+  {
+    "channel": "random",
+    "user": "bot_2858",
+    "message": "Bot em a\u00e7\u00e3o! [6/10]",
+    "timestamp": 1762372856.0517035
+  },
+  {
+    "channel": "random",
+    "user": "bot_2858",
+    "message": "Como est\u00e3o? [7/10]",
+    "timestamp": 1762372857.061034
+  },
+  {
+    "channel": "random",
+    "user": "bot_2858",
+    "message": "ZeroMQ funcionando [8/10]",
+    "timestamp": 1762372858.0699983
+  },
+  {
+    "channel": "random",
+    "user": "bot_2858",
+    "message": "ZeroMQ funcionando [9/10]",
+    "timestamp": 1762372859.079856
+  },
+  {
+    "channel": "random",
+    "user": "bot_2858",
+    "message": "Rel\u00f3gios sincronizados! [10/10]",
+    "timestamp": 1762372860.0880957
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2858",
+    "message": "Ol\u00e1 pessoal! [1/10]",
+    "timestamp": 1762372889.7520082
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2858",
+    "message": "Sistemas distribu\u00eddos \u00e9 legal! [2/10]",
+    "timestamp": 1762372890.7665138
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2858",
+    "message": "Sistemas distribu\u00eddos \u00e9 legal! [3/10]",
+    "timestamp": 1762372891.779673
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2858",
+    "message": "MessagePack \u00e9 eficiente [4/10]",
+    "timestamp": 1762372892.8005579
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2858",
+    "message": "Ol\u00e1 pessoal! [5/10]",
+    "timestamp": 1762372893.8087485
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2858",
+    "message": "ZeroMQ funcionando [6/10]",
+    "timestamp": 1762372894.816941
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2858",
+    "message": "Mensagem autom\u00e1tica do bot [7/10]",
+    "timestamp": 1762372895.825823
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2858",
+    "message": "Testando o sistema [8/10]",
+    "timestamp": 1762372896.8333557
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2858",
+    "message": "Rel\u00f3gios sincronizados! [9/10]",
+    "timestamp": 1762372897.845115
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2858",
+    "message": "Como est\u00e3o? [10/10]",
+    "timestamp": 1762372898.8537912
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2858",
+    "message": "Testando o sistema [1/10]",
+    "timestamp": 1762372916.9155395
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2858",
+    "message": "Algu\u00e9m a\u00ed? [2/10]",
+    "timestamp": 1762372917.9253569
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2858",
+    "message": "ZeroMQ funcionando [3/10]",
+    "timestamp": 1762372918.9384835
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2858",
+    "message": "Sistemas distribu\u00eddos \u00e9 legal! [4/10]",
+    "timestamp": 1762372919.9469578
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2858",
+    "message": "Testando o sistema [5/10]",
+    "timestamp": 1762372920.9553447
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2858",
+    "message": "Mensagem autom\u00e1tica do bot [6/10]",
+    "timestamp": 1762372921.9641516
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2858",
+    "message": "ZeroMQ funcionando [7/10]",
+    "timestamp": 1762372922.9733315
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2858",
+    "message": "Como est\u00e3o? [8/10]",
+    "timestamp": 1762372923.985224
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2858",
+    "message": "Bot em a\u00e7\u00e3o! [9/10]",
+    "timestamp": 1762372925.0019612
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2858",
+    "message": "Ol\u00e1 pessoal! [10/10]",
+    "timestamp": 1762372926.010764
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2858",
+    "message": "MessagePack \u00e9 eficiente [1/10]",
+    "timestamp": 1762372950.212132
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2858",
+    "message": "Ol\u00e1 pessoal! [2/10]",
+    "timestamp": 1762372951.2213073
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2858",
+    "message": "MessagePack \u00e9 eficiente [3/10]",
+    "timestamp": 1762372952.2346709
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2858",
+    "message": "MessagePack \u00e9 eficiente [4/10]",
+    "timestamp": 1762372953.2443302
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2858",
+    "message": "Bot em a\u00e7\u00e3o! [5/10]",
+    "timestamp": 1762372954.252927
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2858",
+    "message": "MessagePack \u00e9 eficiente [6/10]",
+    "timestamp": 1762372955.2636058
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2858",
+    "message": "Mensagem autom\u00e1tica do bot [7/10]",
+    "timestamp": 1762372956.2717164
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2858",
+    "message": "ZeroMQ funcionando [8/10]",
+    "timestamp": 1762372957.280785
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2858",
+    "message": "Sistemas distribu\u00eddos \u00e9 legal! [9/10]",
+    "timestamp": 1762372958.2967825
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2858",
+    "message": "Como est\u00e3o? [10/10]",
+    "timestamp": 1762372959.3055272
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_2858",
+    "message": "Testando o sistema [1/10]",
+    "timestamp": 1762372985.8146102
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_2858",
+    "message": "Rel\u00f3gios sincronizados! [2/10]",
+    "timestamp": 1762372986.8232872
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_2858",
+    "message": "Sistemas distribu\u00eddos \u00e9 legal! [3/10]",
+    "timestamp": 1762372987.836139
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_2858",
+    "message": "Como est\u00e3o? [4/10]",
+    "timestamp": 1762372988.84414
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_2858",
+    "message": "Bot em a\u00e7\u00e3o! [5/10]",
+    "timestamp": 1762372989.8525941
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_2858",
+    "message": "Mensagem autom\u00e1tica do bot [6/10]",
+    "timestamp": 1762372990.8602993
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_2858",
+    "message": "Mensagem autom\u00e1tica do bot [7/10]",
+    "timestamp": 1762372991.8705509
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_2858",
+    "message": "MessagePack \u00e9 eficiente [8/10]",
+    "timestamp": 1762372992.8795512
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_2858",
+    "message": "Testando o sistema [9/10]",
+    "timestamp": 1762372993.8873484
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_2858",
+    "message": "MessagePack \u00e9 eficiente [10/10]",
+    "timestamp": 1762372994.896132
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2858",
+    "message": "Ol\u00e1 pessoal! [1/10]",
+    "timestamp": 1762373014.5379097
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2858",
+    "message": "Algu\u00e9m a\u00ed? [2/10]",
+    "timestamp": 1762373015.5488706
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2858",
+    "message": "Ol\u00e1 pessoal! [3/10]",
+    "timestamp": 1762373016.5698895
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2858",
+    "message": "Mensagem autom\u00e1tica do bot [4/10]",
+    "timestamp": 1762373017.5784018
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2858",
+    "message": "MessagePack \u00e9 eficiente [5/10]",
+    "timestamp": 1762373018.5865974
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2858",
+    "message": "Testando o sistema [6/10]",
+    "timestamp": 1762373019.5968778
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2858",
+    "message": "Como est\u00e3o? [7/10]",
+    "timestamp": 1762373020.6060183
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2858",
+    "message": "Algu\u00e9m a\u00ed? [8/10]",
+    "timestamp": 1762373021.6182814
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2858",
+    "message": "Como est\u00e3o? [9/10]",
+    "timestamp": 1762373022.6296675
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2858",
+    "message": "Algu\u00e9m a\u00ed? [10/10]",
+    "timestamp": 1762373023.6388154
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2858",
+    "message": "Sistemas distribu\u00eddos \u00e9 legal! [1/10]",
+    "timestamp": 1762373036.7472775
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2858",
+    "message": "Como est\u00e3o? [2/10]",
+    "timestamp": 1762373037.756303
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2858",
+    "message": "Testando o sistema [3/10]",
+    "timestamp": 1762373038.7674263
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2858",
+    "message": "Sistemas distribu\u00eddos \u00e9 legal! [4/10]",
+    "timestamp": 1762373039.7765584
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2858",
+    "message": "Testando o sistema [5/10]",
+    "timestamp": 1762373040.785229
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2858",
+    "message": "Sistemas distribu\u00eddos \u00e9 legal! [6/10]",
+    "timestamp": 1762373041.7942579
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2858",
+    "message": "Rel\u00f3gios sincronizados! [7/10]",
+    "timestamp": 1762373042.802281
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2858",
+    "message": "Ol\u00e1 pessoal! [8/10]",
+    "timestamp": 1762373043.8147955
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2858",
+    "message": "ZeroMQ funcionando [9/10]",
+    "timestamp": 1762373044.8245716
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2858",
+    "message": "Sistemas distribu\u00eddos \u00e9 legal! [10/10]",
+    "timestamp": 1762373045.8334174
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_2858",
+    "message": "Testando o sistema [1/10]",
+    "timestamp": 1762373073.1563082
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_2858",
+    "message": "Rel\u00f3gios sincronizados! [2/10]",
+    "timestamp": 1762373074.1653035
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_2858",
+    "message": "Rel\u00f3gios sincronizados! [3/10]",
+    "timestamp": 1762373075.1776114
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_2858",
+    "message": "Sistemas distribu\u00eddos \u00e9 legal! [4/10]",
+    "timestamp": 1762373076.186885
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_2858",
+    "message": "Como est\u00e3o? [5/10]",
+    "timestamp": 1762373077.1953247
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_2858",
+    "message": "MessagePack \u00e9 eficiente [6/10]",
+    "timestamp": 1762373078.2092443
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_2858",
+    "message": "Mensagem autom\u00e1tica do bot [7/10]",
+    "timestamp": 1762373079.218671
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_2858",
+    "message": "Bot em a\u00e7\u00e3o! [8/10]",
+    "timestamp": 1762373080.230236
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_2858",
+    "message": "Algu\u00e9m a\u00ed? [9/10]",
+    "timestamp": 1762373081.2389278
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_2858",
+    "message": "Mensagem autom\u00e1tica do bot [10/10]",
+    "timestamp": 1762373082.2482078
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2858",
+    "message": "Bot em a\u00e7\u00e3o! [1/10]",
+    "timestamp": 1762373097.9133055
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2858",
+    "message": "Como est\u00e3o? [2/10]",
+    "timestamp": 1762373098.9243717
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2858",
+    "message": "Algu\u00e9m a\u00ed? [3/10]",
+    "timestamp": 1762373099.9394104
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2858",
+    "message": "Rel\u00f3gios sincronizados! [4/10]",
+    "timestamp": 1762373100.9483125
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2858",
+    "message": "Ol\u00e1 pessoal! [5/10]",
+    "timestamp": 1762373101.9596317
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2858",
+    "message": "Rel\u00f3gios sincronizados! [6/10]",
+    "timestamp": 1762373102.9752033
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2858",
+    "message": "Como est\u00e3o? [7/10]",
+    "timestamp": 1762373103.9853506
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2858",
+    "message": "MessagePack \u00e9 eficiente [8/10]",
+    "timestamp": 1762373104.9992409
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2858",
+    "message": "Algu\u00e9m a\u00ed? [9/10]",
+    "timestamp": 1762373106.0083036
+  },
+  {
+    "channel": "bots",
+    "user": "bot_2858",
+    "message": "Bot em a\u00e7\u00e3o! [10/10]",
+    "timestamp": 1762373107.0172985
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2858",
+    "message": "MessagePack \u00e9 eficiente [1/10]",
+    "timestamp": 1762373122.1140728
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2858",
+    "message": "Sistemas distribu\u00eddos \u00e9 legal! [2/10]",
+    "timestamp": 1762373123.1233308
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2858",
+    "message": "Rel\u00f3gios sincronizados! [3/10]",
+    "timestamp": 1762373124.137636
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2858",
+    "message": "MessagePack \u00e9 eficiente [4/10]",
+    "timestamp": 1762373125.1469057
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2858",
+    "message": "Mensagem autom\u00e1tica do bot [5/10]",
+    "timestamp": 1762373126.1583006
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2858",
+    "message": "Bot em a\u00e7\u00e3o! [6/10]",
+    "timestamp": 1762373127.1672506
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2858",
+    "message": "Rel\u00f3gios sincronizados! [7/10]",
+    "timestamp": 1762373128.1764517
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2858",
+    "message": "MessagePack \u00e9 eficiente [8/10]",
+    "timestamp": 1762373129.1852145
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2858",
+    "message": "Rel\u00f3gios sincronizados! [9/10]",
+    "timestamp": 1762373130.1949835
+  },
+  {
+    "channel": "geral",
+    "user": "bot_2858",
+    "message": "MessagePack \u00e9 eficiente [10/10]",
+    "timestamp": 1762373131.2032003
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_2858",
+    "message": "ZeroMQ funcionando [1/10]",
+    "timestamp": 1762373144.4639444
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_2858",
+    "message": "Ol\u00e1 pessoal! [2/10]",
+    "timestamp": 1762373145.4727669
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_2858",
+    "message": "Ol\u00e1 pessoal! [3/10]",
+    "timestamp": 1762373146.4812903
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_2858",
+    "message": "Mensagem autom\u00e1tica do bot [4/10]",
+    "timestamp": 1762373147.4963284
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_2858",
+    "message": "Testando o sistema [5/10]",
+    "timestamp": 1762373148.506298
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_2858",
+    "message": "MessagePack \u00e9 eficiente [6/10]",
+    "timestamp": 1762373149.5161643
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_2858",
+    "message": "Sistemas distribu\u00eddos \u00e9 legal! [7/10]",
+    "timestamp": 1762373150.5255463
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_2858",
+    "message": "MessagePack \u00e9 eficiente [8/10]",
+    "timestamp": 1762373151.535583
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_2858",
+    "message": "MessagePack \u00e9 eficiente [9/10]",
+    "timestamp": 1762373152.5449889
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_2858",
+    "message": "MessagePack \u00e9 eficiente [10/10]",
+    "timestamp": 1762373153.5537565
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_2858",
+    "message": "Bot em a\u00e7\u00e3o! [1/10]",
+    "timestamp": 1762373183.929031
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_2858",
+    "message": "Ol\u00e1 pessoal! [2/10]",
+    "timestamp": 1762373184.944541
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_2858",
+    "message": "Testando o sistema [3/10]",
+    "timestamp": 1762373185.9540887
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_2858",
+    "message": "Como est\u00e3o? [4/10]",
+    "timestamp": 1762373186.9702268
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_2858",
+    "message": "MessagePack \u00e9 eficiente [5/10]",
+    "timestamp": 1762373187.978864
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_2858",
+    "message": "Bot em a\u00e7\u00e3o! [6/10]",
+    "timestamp": 1762373188.9898343
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_2858",
+    "message": "ZeroMQ funcionando [7/10]",
+    "timestamp": 1762373190.0132625
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_2858",
+    "message": "Rel\u00f3gios sincronizados! [8/10]",
+    "timestamp": 1762373191.0224118
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_2858",
+    "message": "ZeroMQ funcionando [9/10]",
+    "timestamp": 1762373192.0323608
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_2858",
+    "message": "ZeroMQ funcionando [10/10]",
+    "timestamp": 1762373193.0417929
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_3652",
+    "message": "MessagePack \u00e9 eficiente [1/10]",
+    "timestamp": 1762373204.5010715
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_3652",
+    "message": "Testando o sistema [2/10]",
+    "timestamp": 1762373205.5144663
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_3652",
+    "message": "Ol\u00e1 pessoal! [3/10]",
+    "timestamp": 1762373206.5247593
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_3652",
+    "message": "Mensagem autom\u00e1tica do bot [4/10]",
+    "timestamp": 1762373207.5355456
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_3652",
+    "message": "MessagePack \u00e9 eficiente [5/10]",
+    "timestamp": 1762373208.5461326
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_3652",
+    "message": "MessagePack \u00e9 eficiente [6/10]",
+    "timestamp": 1762373209.5544028
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_3652",
+    "message": "Bot em a\u00e7\u00e3o! [7/10]",
+    "timestamp": 1762373210.5703437
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_3652",
+    "message": "MessagePack \u00e9 eficiente [8/10]",
+    "timestamp": 1762373211.5797496
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_3652",
+    "message": "Sistemas distribu\u00eddos \u00e9 legal! [9/10]",
+    "timestamp": 1762373212.5913696
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_3652",
+    "message": "Testando o sistema [10/10]",
+    "timestamp": 1762373213.6017406
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_3652",
+    "message": "Ol\u00e1 pessoal! [1/10]",
+    "timestamp": 1762373235.8118794
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_3652",
+    "message": "Ol\u00e1 pessoal! [2/10]",
+    "timestamp": 1762373236.822395
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_3652",
+    "message": "Testando o sistema [3/10]",
+    "timestamp": 1762373237.8368428
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_3652",
+    "message": "Como est\u00e3o? [4/10]",
+    "timestamp": 1762373238.8487186
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_3652",
+    "message": "Ol\u00e1 pessoal! [5/10]",
+    "timestamp": 1762373239.8578289
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_3652",
+    "message": "Testando o sistema [6/10]",
+    "timestamp": 1762373240.8675842
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_3652",
+    "message": "MessagePack \u00e9 eficiente [7/10]",
+    "timestamp": 1762373241.8765523
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_3652",
+    "message": "Algu\u00e9m a\u00ed? [8/10]",
+    "timestamp": 1762373242.885801
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_3652",
+    "message": "Bot em a\u00e7\u00e3o! [9/10]",
+    "timestamp": 1762373243.8950257
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_3652",
+    "message": "ZeroMQ funcionando [10/10]",
+    "timestamp": 1762373244.9051783
+  },
+  {
+    "channel": "geral",
+    "user": "bot_3652",
+    "message": "ZeroMQ funcionando [1/10]",
+    "timestamp": 1762373257.3342085
+  },
+  {
+    "channel": "geral",
+    "user": "bot_3652",
+    "message": "Mensagem autom\u00e1tica do bot [2/10]",
+    "timestamp": 1762373258.349223
+  },
+  {
+    "channel": "geral",
+    "user": "bot_3652",
+    "message": "MessagePack \u00e9 eficiente [3/10]",
+    "timestamp": 1762373259.3627079
+  },
+  {
+    "channel": "geral",
+    "user": "bot_3652",
+    "message": "ZeroMQ funcionando [4/10]",
+    "timestamp": 1762373260.377773
+  },
+  {
+    "channel": "geral",
+    "user": "bot_3652",
+    "message": "Sistemas distribu\u00eddos \u00e9 legal! [5/10]",
+    "timestamp": 1762373261.3867846
+  },
+  {
+    "channel": "geral",
+    "user": "bot_3652",
+    "message": "Ol\u00e1 pessoal! [6/10]",
+    "timestamp": 1762373262.3960328
+  },
+  {
+    "channel": "geral",
+    "user": "bot_3652",
+    "message": "Como est\u00e3o? [7/10]",
+    "timestamp": 1762373263.4065478
+  },
+  {
+    "channel": "geral",
+    "user": "bot_3652",
+    "message": "MessagePack \u00e9 eficiente [8/10]",
+    "timestamp": 1762373264.415827
+  },
+  {
+    "channel": "geral",
+    "user": "bot_3652",
+    "message": "MessagePack \u00e9 eficiente [9/10]",
+    "timestamp": 1762373265.4290593
+  },
+  {
+    "channel": "geral",
+    "user": "bot_3652",
+    "message": "Testando o sistema [10/10]",
+    "timestamp": 1762373266.4387593
+  },
+  {
+    "channel": "random",
+    "user": "bot_3652",
+    "message": "Rel\u00f3gios sincronizados! [1/10]",
+    "timestamp": 1762373280.3505425
+  },
+  {
+    "channel": "random",
+    "user": "bot_3652",
+    "message": "Algu\u00e9m a\u00ed? [2/10]",
+    "timestamp": 1762373281.361076
+  },
+  {
+    "channel": "random",
+    "user": "bot_3652",
+    "message": "Mensagem autom\u00e1tica do bot [3/10]",
+    "timestamp": 1762373282.376658
+  },
+  {
+    "channel": "random",
+    "user": "bot_3652",
+    "message": "Bot em a\u00e7\u00e3o! [4/10]",
+    "timestamp": 1762373283.3862448
+  },
+  {
+    "channel": "random",
+    "user": "bot_3652",
+    "message": "Como est\u00e3o? [5/10]",
+    "timestamp": 1762373284.399653
+  },
+  {
+    "channel": "random",
+    "user": "bot_3652",
+    "message": "Mensagem autom\u00e1tica do bot [6/10]",
+    "timestamp": 1762373285.4152308
+  },
+  {
+    "channel": "random",
+    "user": "bot_3652",
+    "message": "Algu\u00e9m a\u00ed? [7/10]",
+    "timestamp": 1762373286.4255116
+  },
+  {
+    "channel": "random",
+    "user": "bot_3652",
+    "message": "Rel\u00f3gios sincronizados! [8/10]",
+    "timestamp": 1762373287.4379811
+  },
+  {
+    "channel": "random",
+    "user": "bot_3652",
+    "message": "ZeroMQ funcionando [9/10]",
+    "timestamp": 1762373288.4528842
+  },
+  {
+    "channel": "random",
+    "user": "bot_3652",
+    "message": "Algu\u00e9m a\u00ed? [10/10]",
+    "timestamp": 1762373289.4629521
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_3652",
+    "message": "ZeroMQ funcionando [1/10]",
+    "timestamp": 1762373306.2057385
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_3652",
+    "message": "Sistemas distribu\u00eddos \u00e9 legal! [2/10]",
+    "timestamp": 1762373307.2163162
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_3652",
+    "message": "MessagePack \u00e9 eficiente [3/10]",
+    "timestamp": 1762373308.2317336
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_3652",
+    "message": "Sistemas distribu\u00eddos \u00e9 legal! [4/10]",
+    "timestamp": 1762373309.2447617
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_3652",
+    "message": "Rel\u00f3gios sincronizados! [5/10]",
+    "timestamp": 1762373310.2550015
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_3652",
+    "message": "Testando o sistema [6/10]",
+    "timestamp": 1762373311.264793
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_3652",
+    "message": "Mensagem autom\u00e1tica do bot [7/10]",
+    "timestamp": 1762373312.2756171
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_3652",
+    "message": "Rel\u00f3gios sincronizados! [8/10]",
+    "timestamp": 1762373313.285541
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_3652",
+    "message": "Algu\u00e9m a\u00ed? [9/10]",
+    "timestamp": 1762373314.2950659
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_3652",
+    "message": "MessagePack \u00e9 eficiente [10/10]",
+    "timestamp": 1762373315.3052433
+  },
+  {
+    "channel": "bots",
+    "user": "bot_3652",
+    "message": "Como est\u00e3o? [1/10]",
+    "timestamp": 1762373331.5598602
+  },
+  {
+    "channel": "bots",
+    "user": "bot_3652",
+    "message": "Bot em a\u00e7\u00e3o! [2/10]",
+    "timestamp": 1762373332.5703018
+  },
+  {
+    "channel": "bots",
+    "user": "bot_3652",
+    "message": "Sistemas distribu\u00eddos \u00e9 legal! [3/10]",
+    "timestamp": 1762373333.5839376
+  },
+  {
+    "channel": "bots",
+    "user": "bot_3652",
+    "message": "ZeroMQ funcionando [4/10]",
+    "timestamp": 1762373334.595907
+  },
+  {
+    "channel": "bots",
+    "user": "bot_3652",
+    "message": "Rel\u00f3gios sincronizados! [5/10]",
+    "timestamp": 1762373335.6054187
+  },
+  {
+    "channel": "bots",
+    "user": "bot_3652",
+    "message": "Ol\u00e1 pessoal! [6/10]",
+    "timestamp": 1762373336.6148124
+  },
+  {
+    "channel": "bots",
+    "user": "bot_3652",
+    "message": "MessagePack \u00e9 eficiente [7/10]",
+    "timestamp": 1762373337.6244276
+  },
+  {
+    "channel": "bots",
+    "user": "bot_3652",
+    "message": "Ol\u00e1 pessoal! [8/10]",
+    "timestamp": 1762373338.6338046
+  },
+  {
+    "channel": "bots",
+    "user": "bot_3652",
+    "message": "Bot em a\u00e7\u00e3o! [9/10]",
+    "timestamp": 1762373339.6434243
+  },
+  {
+    "channel": "bots",
+    "user": "bot_3652",
+    "message": "ZeroMQ funcionando [10/10]",
+    "timestamp": 1762373340.652826
+  },
+  {
+    "channel": "bots",
+    "user": "bot_3652",
+    "message": "Ol\u00e1 pessoal! [1/10]",
+    "timestamp": 1762373371.5399787
+  },
+  {
+    "channel": "bots",
+    "user": "bot_3652",
+    "message": "Mensagem autom\u00e1tica do bot [2/10]",
+    "timestamp": 1762373372.551312
+  },
+  {
+    "channel": "bots",
+    "user": "bot_3652",
+    "message": "Sistemas distribu\u00eddos \u00e9 legal! [3/10]",
+    "timestamp": 1762373373.5675292
+  },
+  {
+    "channel": "bots",
+    "user": "bot_3652",
+    "message": "Testando o sistema [4/10]",
+    "timestamp": 1762373374.5813591
+  },
+  {
+    "channel": "bots",
+    "user": "bot_3652",
+    "message": "Como est\u00e3o? [5/10]",
+    "timestamp": 1762373375.5951345
+  },
+  {
+    "channel": "bots",
+    "user": "bot_3652",
+    "message": "Sistemas distribu\u00eddos \u00e9 legal! [6/10]",
+    "timestamp": 1762373376.6042771
+  },
+  {
+    "channel": "bots",
+    "user": "bot_3652",
+    "message": "Rel\u00f3gios sincronizados! [7/10]",
+    "timestamp": 1762373377.6291692
+  },
+  {
+    "channel": "bots",
+    "user": "bot_3652",
+    "message": "Mensagem autom\u00e1tica do bot [8/10]",
+    "timestamp": 1762373378.6384952
+  },
+  {
+    "channel": "bots",
+    "user": "bot_3652",
+    "message": "Rel\u00f3gios sincronizados! [9/10]",
+    "timestamp": 1762373379.6549184
+  },
+  {
+    "channel": "bots",
+    "user": "bot_3652",
+    "message": "Bot em a\u00e7\u00e3o! [10/10]",
+    "timestamp": 1762373380.664531
+  },
+  {
+    "channel": "random",
+    "user": "bot_3652",
+    "message": "Algu\u00e9m a\u00ed? [1/10]",
+    "timestamp": 1762373410.3225062
+  },
+  {
+    "channel": "random",
+    "user": "bot_3652",
+    "message": "Bot em a\u00e7\u00e3o! [2/10]",
+    "timestamp": 1762373411.3492928
+  },
+  {
+    "channel": "random",
+    "user": "bot_3652",
+    "message": "ZeroMQ funcionando [3/10]",
+    "timestamp": 1762373412.3676715
+  },
+  {
+    "channel": "random",
+    "user": "bot_3652",
+    "message": "Rel\u00f3gios sincronizados! [4/10]",
+    "timestamp": 1762373413.3906705
+  },
+  {
+    "channel": "random",
+    "user": "bot_3652",
+    "message": "Testando o sistema [5/10]",
+    "timestamp": 1762373414.401085
+  },
+  {
+    "channel": "random",
+    "user": "bot_3652",
+    "message": "Ol\u00e1 pessoal! [6/10]",
+    "timestamp": 1762373415.4116638
+  },
+  {
+    "channel": "random",
+    "user": "bot_3652",
+    "message": "MessagePack \u00e9 eficiente [7/10]",
+    "timestamp": 1762373416.4240534
+  },
+  {
+    "channel": "random",
+    "user": "bot_3652",
+    "message": "Bot em a\u00e7\u00e3o! [8/10]",
+    "timestamp": 1762373417.4349434
+  },
+  {
+    "channel": "random",
+    "user": "bot_3652",
+    "message": "Como est\u00e3o? [9/10]",
+    "timestamp": 1762373418.4481409
+  },
+  {
+    "channel": "random",
+    "user": "bot_3652",
+    "message": "Testando o sistema [10/10]",
+    "timestamp": 1762373419.4595795
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_3652",
+    "message": "Mensagem autom\u00e1tica do bot [1/10]",
+    "timestamp": 1762373431.0236764
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_3652",
+    "message": "MessagePack \u00e9 eficiente [2/10]",
+    "timestamp": 1762373432.0373735
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_3652",
+    "message": "Rel\u00f3gios sincronizados! [3/10]",
+    "timestamp": 1762373433.052331
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_3652",
+    "message": "MessagePack \u00e9 eficiente [4/10]",
+    "timestamp": 1762373434.0672638
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_3652",
+    "message": "MessagePack \u00e9 eficiente [5/10]",
+    "timestamp": 1762373435.0855453
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_3652",
+    "message": "Como est\u00e3o? [6/10]",
+    "timestamp": 1762373436.0972972
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_3652",
+    "message": "Testando o sistema [7/10]",
+    "timestamp": 1762373437.1103203
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_3652",
+    "message": "Ol\u00e1 pessoal! [8/10]",
+    "timestamp": 1762373438.1250434
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_3652",
+    "message": "Ol\u00e1 pessoal! [9/10]",
+    "timestamp": 1762373439.1391897
+  },
+  {
+    "channel": "Carola",
+    "user": "bot_3652",
+    "message": "ZeroMQ funcionando [10/10]",
+    "timestamp": 1762373440.1547003
   }
 ]
