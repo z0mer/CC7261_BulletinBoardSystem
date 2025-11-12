@@ -59,7 +59,7 @@ class Servidor:
         
         self.load_data()
         self.register_server()
-        
+    
     def increment_clock(self):
         self.logical_clock += 1
         return self.logical_clock
@@ -99,120 +99,23 @@ class Servidor:
         self.ref_socket.send(msgpack.packb(msg))
         response = msgpack.unpackb(self.ref_socket.recv())
         
-        self.servers = {s['name']: s['rank'] for s in response['data']['list']}
+        self.servers = response['data']['users']
         self.update_clock(response['data']['clock'])
-    
-    def heartbeat(self):
-        """Envia heartbeat para servidor de referência"""
-        msg = {
-            "service": "heartbeat",
-            "data": {
-                "user": self.server_name,
-                "timestamp": time.time(),
-                "clock": self.increment_clock()
-            }
-        }
-        
-        try:
-            self.ref_socket.send(msgpack.packb(msg))
-            response = msgpack.unpackb(self.ref_socket.recv())
-            self.update_clock(response['data']['clock'])
-        except:
-            pass
-    
-    def replicate_data(self, operation, data):
-        """Publica operação para replicação em outros servidores"""
-        if self.is_replicating:
-            return  # Evita replicar uma replicação
-        
-        replication_msg = {
-            "operation": operation,
-            "data": data,
-            "server": self.server_name,
-            "timestamp": time.time(),
-            "clock": self.increment_clock()
-        }
-        
-        self.pub_socket.send_multipart([
-            b"replication",
-            msgpack.packb(replication_msg)
-        ])
-        
-        print(f"[REPLICAÇÃO] Operação '{operation}' replicada para outros servidores")
-    
-    def handle_replication(self, msg):
-        """Processa mensagem de replicação recebida de outro servidor"""
-        try:
-            # Marca que está processando replicação (evita loop)
-            self.is_replicating = True
-            
-            operation = msg['operation']
-            data = msg['data']
-            source_server = msg['server']
-            received_clock = msg['clock']
-            
-            # Ignora replicações do próprio servidor
-            if source_server == self.server_name:
-                self.is_replicating = False
-                return
-            
-            self.update_clock(received_clock)
-            
-            # Aplica a operação localmente
-            if operation == 'add_user':
-                if data['user'] not in self.users:
-                    self.users.add(data['user'])
-                    print(f"[REPLICAÇÃO] Usuário '{data['user']}' adicionado (de {source_server})")
-            
-            elif operation == 'add_channel':
-                if data['channel'] not in self.channels:
-                    self.channels.add(data['channel'])
-                    print(f"[REPLICAÇÃO] Canal '{data['channel']}' adicionado (de {source_server})")
-            
-            elif operation == 'add_message':
-                # Verifica se mensagem já existe (evita duplicatas)
-                msg_exists = any(
-                    m['src'] == data['src'] and 
-                    m['dst'] == data['dst'] and 
-                    abs(m['timestamp'] - data['timestamp']) < 1
-                    for m in self.messages
-                )
-                if not msg_exists:
-                    self.messages.append(data)
-                    print(f"[REPLICAÇÃO] Mensagem {data['src']}→{data['dst']} adicionada (de {source_server})")
-            
-            elif operation == 'add_publication':
-                # Verifica se publicação já existe
-                pub_exists = any(
-                    p['channel'] == data['channel'] and 
-                    p['user'] == data['user'] and 
-                    abs(p['timestamp'] - data['timestamp']) < 1
-                    for p in self.publications
-                )
-                if not pub_exists:
-                    self.publications.append(data)
-                    print(f"[REPLICAÇÃO] Publicação em '{data['channel']}' adicionada (de {source_server})")
-            
-            # Salva dados após replicação
-            self.save_data()
-            
-        except Exception as e:
-            print(f"[REPLICAÇÃO] Erro ao processar: {e}")
-        finally:
-            self.is_replicating = False
+        return self.servers
     
     def load_data(self):
-        """Carrega dados persistidos"""
+        """Carrega dados do disco"""
         try:
             users_file = self.data_dir / 'users.json'
             if users_file.exists():
                 with open(users_file, 'r') as f:
-                    self.users = set(json.load(f))
+                    data = json.load(f)
+                    self.users = set(data.get('users', []))
             
             channels_file = self.data_dir / 'channels.json'
             if channels_file.exists():
                 with open(channels_file, 'r') as f:
-                    self.channels = set(json.load(f))
+                    self.channels = json.load(f)
             
             messages_file = self.data_dir / 'messages.json'
             if messages_file.exists():
@@ -224,59 +127,97 @@ class Servidor:
                 with open(publications_file, 'r') as f:
                     self.publications = json.load(f)
                     
-            print(f"[DADOS] Carregados: {len(self.users)} usuários, {len(self.channels)} canais, "
-                  f"{len(self.messages)} mensagens, {len(self.publications)} publicações")
         except Exception as e:
             print(f"Erro ao carregar dados: {e}")
     
     def save_data(self):
-        """Salva dados em disco"""
+        """Salva dados no disco"""
         try:
             with open(self.data_dir / 'users.json', 'w') as f:
-                json.dump(list(self.users), f, indent=2)
+                json.dump({'users': list(self.users)}, f, indent=2)
             
             with open(self.data_dir / 'channels.json', 'w') as f:
-                json.dump(list(self.channels), f, indent=2)
+                json.dump(self.channels, f, indent=2)
             
             with open(self.data_dir / 'messages.json', 'w') as f:
                 json.dump(self.messages, f, indent=2)
             
             with open(self.data_dir / 'publications.json', 'w') as f:
                 json.dump(self.publications, f, indent=2)
+                
         except Exception as e:
             print(f"Erro ao salvar dados: {e}")
+    
+    def replicate_data(self, operation, data):
+        """Replica dados para outros servidores"""
+        if self.is_replicating:
+            return
+        
+        replication_msg = {
+            "operation": operation,
+            "data": data,
+            "source": self.server_name,
+            "clock": self.increment_clock(),
+            "timestamp": time.time()
+        }
+        
+        try:
+            self.pub_socket.send_multipart([
+                b"replication",
+                msgpack.packb(replication_msg)
+            ])
+        except Exception as e:
+            print(f"Erro ao replicar dados: {e}")
+    
+    def handle_replication(self, msg):
+        """Processa replicação recebida de outros servidores"""
+        if msg.get('source') == self.server_name:
+            return
+        
+        self.is_replicating = True
+        
+        try:
+            operation = msg['operation']
+            data = msg['data']
+            
+            self.update_clock(msg['clock'])
+            
+            if operation == 'login':
+                self.users.add(data['user'])
+            elif operation == 'channel_create':
+                if data['channel'] not in self.channels:
+                    self.channels[data['channel']] = {
+                        'creator': data['creator'],
+                        'subscribers': [],
+                        'timestamp': data.get('timestamp', time.time()),
+                        'clock': data.get('clock', self.logical_clock)
+                    }
+            elif operation == 'publish':
+                self.publications.append(data)
+            elif operation == 'message':
+                self.messages.append(data)
+            
+            self.save_data()
+            
+        except Exception as e:
+            print(f"Erro ao processar replicação: {e}")
+        finally:
+            self.is_replicating = False
     
     def handle_login(self, data):
         """Processa login de usuário"""
         user = data['user']
-        received_clock = data['clock']
-        
-        self.update_clock(received_clock)
-        
-        if user in self.users:
-            return {
-                "service": "login",
-                "data": {
-                    "status": "erro",
-                    "timestamp": time.time(),
-                    "clock": self.increment_clock(),
-                    "description": "Usuário já existe"
-                }
-            }
+        self.update_clock(data['clock'])
         
         self.users.add(user)
         self.save_data()
         
-        # Replica para outros servidores
-        self.replicate_data('add_user', {'user': user})
+        self.replicate_data('login', {'user': user})
         
         return {
-            "service": "login",
-            "data": {
-                "status": "sucesso",
-                "timestamp": time.time(),
-                "clock": self.increment_clock()
-            }
+            "success": True,
+            "message": f"Usuário {user} logado",
+            "clock": self.increment_clock()
         }
     
     def handle_users(self, data):
@@ -284,281 +225,221 @@ class Servidor:
         self.update_clock(data['clock'])
         
         return {
-            "service": "users",
-            "data": {
-                "timestamp": time.time(),
-                "clock": self.increment_clock(),
-                "users": sorted(list(self.users))
-            }
+            "users": list(self.users),
+            "clock": self.increment_clock()
         }
     
     def handle_channel_create(self, data):
         """Cria novo canal"""
         channel = data['channel']
+        creator = data['user']
+        
         self.update_clock(data['clock'])
         
         if channel in self.channels:
             return {
-                "service": "channel",
-                "data": {
-                    "status": "erro",
-                    "timestamp": time.time(),
-                    "clock": self.increment_clock(),
-                    "description": "Canal já existe"
-                }
-            }
-        
-        self.channels.add(channel)
-        self.save_data()
-        
-        # Replica para outros servidores
-        self.replicate_data('add_channel', {'channel': channel})
-        
-        return {
-            "service": "channel",
-            "data": {
-                "status": "sucesso",
-                "timestamp": time.time(),
+                "success": False,
+                "message": "Canal já existe",
                 "clock": self.increment_clock()
             }
+        
+        channel_data = {
+            'creator': creator,
+            'subscribers': [],
+            'timestamp': time.time(),
+            'clock': self.logical_clock
+        }
+        
+        self.channels[channel] = channel_data
+        self.save_data()
+        
+        self.replicate_data('channel_create', {
+            'channel': channel,
+            'creator': creator,
+            'timestamp': channel_data['timestamp'],
+            'clock': self.logical_clock
+        })
+        
+        return {
+            "success": True,
+            "message": f"Canal {channel} criado",
+            "clock": self.increment_clock()
         }
     
     def handle_channels(self, data):
         """Retorna lista de canais"""
         self.update_clock(data['clock'])
         
-        return {
-            "service": "channels",
-            "data": {
-                "timestamp": time.time(),
-                "clock": self.increment_clock(),
-                "channels": sorted(list(self.channels))
+        channels_list = [
+            {
+                "name": channel_name,
+                "creator": channel_data.get("creator", "unknown"),
+                "timestamp": channel_data.get("timestamp", 0),
+                "subscribers": channel_data.get("subscribers", []),
+                "clock": channel_data.get("clock", 0)
             }
+            for channel_name, channel_data in self.channels.items()
+        ]
+        
+        return {
+            "channels": channels_list,
+            "clock": self.increment_clock()
         }
     
     def handle_publish(self, data):
-        """Publica mensagem em canal"""
-        channel = data['channel']
-        user = data['user']
-        message = data['message']
+        """Processa publicação em canal"""
         self.update_clock(data['clock'])
         
-        if channel not in self.channels:
-            return {
-                "service": "publish",
-                "data": {
-                    "status": "erro",
-                    "timestamp": time.time(),
-                    "clock": self.increment_clock(),
-                    "message": "Canal não existe"
-                }
-            }
-        
-        # Publica no canal
-        pub_msg = {
-            "user": user,
-            "message": message,
-            "timestamp": time.time(),
-            "clock": self.increment_clock()
+        publication = {
+            'user': data['user'],
+            'channel': data['channel'],
+            'message': data['message'],
+            'timestamp': time.time(),
+            'clock': self.logical_clock
         }
         
-        self.pub_socket.send_multipart([
-            channel.encode(),
-            msgpack.packb(pub_msg)
-        ])
-        
-        # Persiste publicação
-        publication_data = {
-            "channel": channel,
-            "user": user,
-            "message": message,
-            "timestamp": time.time()
-        }
-        self.publications.append(publication_data)
+        self.publications.append(publication)
         self.save_data()
         
-        # Replica para outros servidores
-        self.replicate_data('add_publication', publication_data)
+        self.replicate_data('publish', publication)
+        
+        self.pub_socket.send_multipart([
+            data['channel'].encode(),
+            msgpack.packb(publication)
+        ])
         
         return {
-            "service": "publish",
-            "data": {
-                "status": "OK",
-                "timestamp": time.time(),
-                "clock": self.logical_clock
-            }
+            "success": True,
+            "message": "Publicação enviada",
+            "clock": self.increment_clock()
         }
     
     def handle_message(self, data):
-        """Envia mensagem privada"""
-        src = data['src']
-        dst = data['dst']
-        message = data['message']
+        """Processa mensagem privada"""
         self.update_clock(data['clock'])
         
-        if dst not in self.users:
-            return {
-                "service": "message",
-                "data": {
-                    "status": "erro",
-                    "timestamp": time.time(),
-                    "clock": self.increment_clock(),
-                    "message": "Usuário não existe"
-                }
-            }
-        
-        # Publica no tópico do usuário destino
-        msg_data = {
-            "src": src,
-            "message": message,
-            "timestamp": time.time(),
-            "clock": self.increment_clock()
+        message = {
+            'from': data['from'],
+            'to': data['to'],
+            'message': data['message'],
+            'timestamp': time.time(),
+            'clock': self.logical_clock
         }
         
-        self.pub_socket.send_multipart([
-            dst.encode(),
-            msgpack.packb(msg_data)
-        ])
-        
-        # Persiste mensagem
-        message_data = {
-            "src": src,
-            "dst": dst,
-            "message": message,
-            "timestamp": time.time()
-        }
-        self.messages.append(message_data)
+        self.messages.append(message)
         self.save_data()
         
-        # Replica para outros servidores
-        self.replicate_data('add_message', message_data)
+        self.replicate_data('message', message)
+        
+        self.pub_socket.send_multipart([
+            f"private_{data['to']}".encode(),
+            msgpack.packb(message)
+        ])
         
         return {
-            "service": "message",
-            "data": {
-                "status": "OK",
-                "timestamp": time.time(),
-                "clock": self.logical_clock
-            }
+            "success": True,
+            "message": "Mensagem enviada",
+            "clock": self.increment_clock()
         }
     
     def handle_history_messages(self, data):
-        """Retorna histórico de mensagens privadas do usuário"""
+        """Retorna histórico de mensagens privadas"""
         user = data['user']
         self.update_clock(data['clock'])
         
         user_messages = [
-            msg for msg in self.messages 
-            if msg['src'] == user or msg['dst'] == user
+            msg for msg in self.messages
+            if msg['from'] == user or msg['to'] == user
         ]
         
-        # Ordena por timestamp
-        user_messages.sort(key=lambda x: x['timestamp'])
-        
         return {
-            "service": "history_messages",
-            "data": {
-                "timestamp": time.time(),
-                "clock": self.increment_clock(),
-                "messages": user_messages
-            }
+            "messages": user_messages,
+            "clock": self.increment_clock()
         }
     
     def handle_history_channel(self, data):
-        """Retorna histórico de publicações em canal"""
+        """Retorna histórico de canal"""
         channel = data['channel']
         self.update_clock(data['clock'])
         
-        channel_pubs = [
-            pub for pub in self.publications 
+        channel_publications = [
+            pub for pub in self.publications
             if pub['channel'] == channel
         ]
         
-        # Ordena por timestamp
-        channel_pubs.sort(key=lambda x: x['timestamp'])
-        
         return {
-            "service": "history_channel",
-            "data": {
-                "timestamp": time.time(),
-                "clock": self.increment_clock(),
-                "publications": channel_pubs
-            }
+            "publications": channel_publications,
+            "clock": self.increment_clock()
         }
     
     def handle_sync_request(self, data):
-        """Responde pedido de sincronização completa de dados"""
+        """Processa requisição de sincronização"""
         self.update_clock(data['clock'])
         
         return {
-            "service": "sync",
-            "data": {
-                "timestamp": time.time(),
-                "clock": self.increment_clock(),
-                "users": list(self.users),
-                "channels": list(self.channels),
-                "messages": self.messages,
-                "publications": self.publications
-            }
+            "users": list(self.users),
+            "channels": self.channels,
+            "messages": self.messages,
+            "publications": self.publications,
+            "clock": self.increment_clock()
         }
     
-    def handle_list_users(self, msg):
-        """Lista todos os usuários cadastrados"""
-        try:
-            users_list = list(self.users.keys())  # ❌ AQUI! Só retorna nomes
-            
-            # ✅ DEVE SER:
-            users_list = [
-                {
-                    "username": username,
-                    "timestamp": user_data.get("timestamp", 0),
-                    "clock": user_data.get("clock", 0)
+    def heartbeat(self):
+        """Envia heartbeat se for coordenador"""
+        if self.rank == 1 or (self.coordinator and self.coordinator == self.server_name):
+            heartbeat_msg = {
+                "service": "election",
+                "data": {
+                    "coordinator": self.server_name,
+                    "rank": self.rank,
+                    "clock": self.increment_clock(),
+                    "timestamp": time.time(),
+                    "type": "heartbeat"
                 }
-                for username, user_data in self.users.items()
-            ]
-            
-            response = {
-                "type": "list_users_response",
-                "users": users_list,
-                "clock": self.logical_clock
             }
             
-            self.req_socket.send(msgpack.packb(response))
-        
-        except Exception as e:
-            print(f"❌ Erro ao listar usuários: {e}")
-            error_response = {"error": str(e)}
-            self.req_socket.send(msgpack.packb(error_response))
+            try:
+                self.pub_socket.send_multipart([
+                    b"servers",
+                    msgpack.packb(heartbeat_msg)
+                ])
+            except Exception as e:
+                print(f"Erro ao enviar heartbeat: {e}")
     
-    def handle_list_channels(self, msg):
-        """Lista todos os canais disponíveis"""
-        try:
-            channels_list = list(self.channels.keys())  # ❌ AQUI! Só retorna nomes
-            
-            # ✅ DEVE SER:
-            channels_list = [
-                {
-                    "name": channel_name,
-                    "creator": channel_data.get("creator", "unknown"),
-                    "timestamp": channel_data.get("timestamp", 0),
-                    "subscribers": channel_data.get("subscribers", []),
-                    "clock": channel_data.get("clock", 0)
-                }
-                for channel_name, channel_data in self.channels.items()
-            ]
-            
-            response = {
-                "type": "list_channels_response",
-                "channels": channels_list,
-                "clock": self.logical_clock
-            }
-            
-            self.req_socket.send(msgpack.packb(response))
+    def start_election(self):
+        """Inicia processo de eleição (Algoritmo de Bully)"""
+        print(f"🗳️  INICIANDO ELEIÇÃO - Servidor {self.server_name} (rank {self.rank})")
         
+        # No algoritmo de Bully, rank MENOR tem prioridade MAIOR
+        # Se não houver servidores com rank menor disponíveis, torno-me coordenador
+        self.become_coordinator()
+    
+    def become_coordinator(self):
+        """Torna-se o novo coordenador"""
+        print(f"👑 SERVIDOR {self.server_name} (RANK {self.rank}) É O NOVO COORDENADOR!")
+        
+        self.coordinator = self.server_name
+        
+        # Anunciar coordenação
+        announcement = {
+            "service": "election",
+            "data": {
+                "coordinator": self.server_name,
+                "rank": self.rank,
+                "clock": self.increment_clock(),
+                "timestamp": time.time(),
+                "type": "coordinator_announcement"
+            }
+        }
+        
+        try:
+            self.pub_socket.send_multipart([
+                b"servers",
+                msgpack.packb(announcement)
+            ])
+            print(f"  ↳ Anúncio de coordenação publicado no tópico 'servers'")
         except Exception as e:
-            print(f"❌ Erro ao listar canais: {e}")
-            error_response = {"error": str(e)}
-            self.req_socket.send(msgpack.packb(error_response))
+            print(f"Erro ao anunciar coordenação: {e}")
     
     def run(self):
         """Loop principal do servidor"""
@@ -573,6 +454,13 @@ class Servidor:
         poller.register(self.replication_socket, zmq.POLLIN)
         
         last_heartbeat = time.time()
+        last_coordinator_heartbeat = time.time()
+        election_timeout = 15  # 15 segundos sem heartbeat = eleição
+        
+        # Se rank 1, já é coordenador inicial
+        if self.rank == 1:
+            self.coordinator = self.server_name
+            print(f"👑 Servidor {self.server_name} iniciado como COORDENADOR (rank 1)")
         
         while True:
             socks = dict(poller.poll(1000))
@@ -627,12 +515,31 @@ class Servidor:
                 topic = self.election_socket.recv()
                 msg = msgpack.unpackb(self.election_socket.recv())
                 
-                if msg['service'] == 'election':
-                    self.coordinator = msg['data']['coordinator']
-                    self.update_clock(msg['data']['clock'])
-                    print(f"✓ Novo coordenador: {self.coordinator}")
+                if msg.get('service') == 'election':
+                    # Atualizar timestamp do último heartbeat do coordenador
+                    last_coordinator_heartbeat = time.time()
+                    
+                    msg_data = msg.get('data', {})
+                    new_coordinator = msg_data.get('coordinator')
+                    
+                    if new_coordinator and new_coordinator != self.coordinator:
+                        print(f"✓ Novo coordenador reconhecido: {new_coordinator} (rank {msg_data.get('rank', '?')})")
+                        self.coordinator = new_coordinator
+                    
+                    if 'clock' in msg_data:
+                        self.update_clock(msg_data['clock'])
             
-            # Heartbeat periódico
+            # Verificar timeout do coordenador (se não for coordenador)
+            if self.coordinator != self.server_name:
+                time_since_last_heartbeat = time.time() - last_coordinator_heartbeat
+                
+                if time_since_last_heartbeat > election_timeout:
+                    print(f"⚠️  Coordenador não responde há {time_since_last_heartbeat:.1f}s")
+                    print(f"🗳️  Timeout detectado! Iniciando eleição...")
+                    self.start_election()
+                    last_coordinator_heartbeat = time.time()  # Reset após iniciar eleição
+            
+            # Heartbeat periódico (se for coordenador)
             if time.time() - last_heartbeat > 5:
                 self.heartbeat()
                 last_heartbeat = time.time()

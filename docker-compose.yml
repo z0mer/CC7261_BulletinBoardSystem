@@ -1,4 +1,4 @@
-version: '3.8'
+# version: '3.8'
 
 services:
   # Servidor de Referência (C#)
@@ -13,7 +13,7 @@ services:
       - "5559:5559"
     environment:
       - PORTA=5559
-      - TZ=America/Sao_Paulo  # ✅ ADICIONAR ESTA LINHA
+      - TZ=America/Sao_Paulo
     restart: unless-stopped
 
   # Servidores Python (3 instâncias)
@@ -31,7 +31,7 @@ services:
       - PORTA=5001
       - PEERS=tcp://servidor2:5002,tcp://servidor3:5003
       - REFERENCIA=tcp://referencia:5559
-      - TZ=America/Sao_Paulo  # ✅ ADICIONAR ESTA LINHA
+      - TZ=America/Sao_Paulo
     volumes:
       - ./python/servidor/dados/servidor1:/app/data
     depends_on:
@@ -52,7 +52,7 @@ services:
       - PORTA=5002
       - PEERS=tcp://servidor1:5001,tcp://servidor3:5003
       - REFERENCIA=tcp://referencia:5559
-      - TZ=America/Sao_Paulo  # ✅ ADICIONAR ESTA LINHA
+      - TZ=America/Sao_Paulo
     volumes:
       - ./python/servidor/dados/servidor2:/app/data
     depends_on:
@@ -73,7 +73,7 @@ services:
       - PORTA=5003
       - PEERS=tcp://servidor1:5001,tcp://servidor2:5002
       - REFERENCIA=tcp://referencia:5559
-      - TZ=America/Sao_Paulo  # ✅ ADICIONAR ESTA LINHA
+      - TZ=America/Sao_Paulo
     volumes:
       - ./python/servidor/dados/servidor3:/app/data
     depends_on:
@@ -94,7 +94,7 @@ services:
     environment:
       - PROXY_FRONTEND_PORT=5556
       - PROXY_BACKEND_PORT=5557
-      - TZ=America/Sao_Paulo  # ✅ ADICIONAR ESTA LINHA
+      - TZ=America/Sao_Paulo
     restart: unless-stopped
 
   # Broker Python
@@ -111,7 +111,7 @@ services:
       - PORTA=5555
       - SERVIDORES=tcp://servidor1:5001,tcp://servidor2:5002,tcp://servidor3:5003
       - PROXY_BACKEND=tcp://proxy:5557
-      - TZ=America/Sao_Paulo  # ✅ ADICIONAR ESTA LINHA
+      - TZ=America/Sao_Paulo
     depends_on:
       - servidor1
       - servidor2
@@ -130,7 +130,7 @@ services:
     environment:
       - BROKER_ADDRESS=tcp://broker:5555
       - PROXY_ADDRESS=tcp://proxy:5556
-      - TZ=America/Sao_Paulo  # ✅ ADICIONAR ESTA LINHA
+      - TZ=America/Sao_Paulo
     depends_on:
       - broker
       - proxy
@@ -150,7 +150,7 @@ services:
     environment:
       - BROKER_ADDRESS=tcp://broker:5555
       - PROXY_ADDRESS=tcp://proxy:5556
-      - TZ=America/Sao_Paulo  # ✅ ADICIONAR ESTA LINHA
+      - TZ=America/Sao_Paulo
     depends_on:
       - broker
       - proxy
@@ -159,4 +159,5 @@ services:
 
 networks:
   bbs_network:
+    name: bbs_network
     driver: bridge
