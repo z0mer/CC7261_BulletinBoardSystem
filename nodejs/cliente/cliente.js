@@ -49,8 +49,8 @@ class Cliente {
         const [response] = await this.reqSocket.receive();
         const decoded = msgpack.decode(response);
         
-        if (decoded.data && decoded.data.clock) {
-            this.updateClock(decoded.data.clock);
+        if (decoded.clock) {
+            this.updateClock(decoded.clock);
         }
         
         return decoded;
@@ -65,7 +65,7 @@ class Cliente {
                     user: username
                 });
 
-                if (response.data.status === 'sucesso') {
+                if (response.success) {
                     console.log('Login realizado com sucesso!');
                     
                     // Inscreve no tópico do próprio usuário para mensagens privadas
@@ -73,7 +73,7 @@ class Cliente {
                     
                     resolve(true);
                 } else {
-                    console.log(`Erro no login: ${response.data.description}`);
+                    console.log(`Erro no login: ${response.message || 'Erro desconhecido'}`);
                     resolve(false);
                 }
             });
@@ -83,7 +83,9 @@ class Cliente {
     async listUsers() {
         const response = await this.sendRequest('users', {});
         console.log('\n=== Usuários cadastrados ===');
-        response.data.users.forEach(user => console.log(`  - ${user}`));
+        if (response.users) {
+            response.users.forEach(user => console.log(`  - ${user}`));
+        }
         console.log('');
     }
 
@@ -91,13 +93,14 @@ class Cliente {
         return new Promise((resolve) => {
             this.rl.question('Nome do canal: ', async (channel) => {
                 const response = await this.sendRequest('channel', {
-                    channel: channel
+                    channel: channel,
+                    user: this.username
                 });
 
-                if (response.data.status === 'sucesso') {
+                if (response.success) {
                     console.log('Canal criado com sucesso!');
                 } else {
-                    console.log(`Erro: ${response.data.description}`);
+                    console.log(`Erro: ${response.message || 'Erro ao criar canal'}`);
                 }
                 resolve();
             });
@@ -107,7 +110,12 @@ class Cliente {
     async listChannels() {
         const response = await this.sendRequest('channels', {});
         console.log('\n=== Canais disponíveis ===');
-        response.data.channels.forEach(channel => console.log(`  - ${channel}`));
+        if (response.channels) {
+            response.channels.forEach(channel => {
+                const name = typeof channel === 'string' ? channel : channel.name;
+                console.log(`  - ${name}`);
+            });
+        }
         console.log('');
     }
 
@@ -131,10 +139,10 @@ class Cliente {
                         message: message
                     });
 
-                    if (response.data.status === 'OK') {
+                    if (response.success) {
                         console.log('Mensagem publicada!');
                     } else {
-                        console.log(`Erro: ${response.data.message}`);
+                        console.log(`Erro: ${response.message || 'Erro ao publicar'}`);
                     }
                     resolve();
                 });
@@ -147,15 +155,15 @@ class Cliente {
             this.rl.question('Usuário destino: ', (dst) => {
                 this.rl.question('Mensagem: ', async (message) => {
                     const response = await this.sendRequest('message', {
-                        src: this.username,
-                        dst: dst,
+                        from: this.username,
+                        to: dst,
                         message: message
                     });
 
-                    if (response.data.status === 'OK') {
+                    if (response.success) {
                         console.log('Mensagem enviada!');
                     } else {
-                        console.log(`Erro: ${response.data.message}`);
+                        console.log(`Erro: ${response.message || 'Erro ao enviar'}`);
                     }
                     resolve();
                 });
@@ -169,15 +177,15 @@ class Cliente {
         });
         
         console.log('\n=== Histórico de Mensagens Privadas ===');
-        if (response.data.messages.length === 0) {
+        if (!response.messages || response.messages.length === 0) {
             console.log('  Nenhuma mensagem encontrada.');
         } else {
-            response.data.messages.forEach(msg => {
+            response.messages.forEach(msg => {
                 const date = new Date(msg.timestamp * 1000).toLocaleString();
-                if (msg.src === this.username) {
-                    console.log(`  [${date}] → Para ${msg.dst}: ${msg.message}`);
+                if (msg.from === this.username) {
+                    console.log(`  [${date}] → Para ${msg.to}: ${msg.message}`);
                 } else {
-                    console.log(`  [${date}] ← De ${msg.src}: ${msg.message}`);
+                    console.log(`  [${date}] ← De ${msg.from}: ${msg.message}`);
                 }
             });
         }
@@ -192,10 +200,10 @@ class Cliente {
                 });
                 
                 console.log(`\n=== Histórico do Canal: ${channel} ===`);
-                if (response.data.publications.length === 0) {
+                if (!response.publications || response.publications.length === 0) {
                     console.log('  Nenhuma publicação encontrada.');
                 } else {
-                    response.data.publications.forEach(pub => {
+                    response.publications.forEach(pub => {
                         const date = new Date(pub.timestamp * 1000).toLocaleString();
                         console.log(`  [${date}] ${pub.user}: ${pub.message}`);
                     });
@@ -215,9 +223,9 @@ class Cliente {
                     this.updateClock(decoded.clock);
                 }
 
-                if (topic.toString() === this.username) {
+                if (topic.toString() === this.username || topic.toString().startsWith('private_')) {
                     // Mensagem privada
-                    console.log(`\n[MENSAGEM PRIVADA de ${decoded.src}]: ${decoded.message}`);
+                    console.log(`\n[MENSAGEM PRIVADA de ${decoded.from}]: ${decoded.message}`);
                 } else {
                     // Mensagem de canal
                     console.log(`\n[${topic.toString()}] ${decoded.user}: ${decoded.message}`);

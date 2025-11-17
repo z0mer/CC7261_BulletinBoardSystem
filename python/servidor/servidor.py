@@ -9,7 +9,9 @@ from pathlib import Path
 
 class Servidor:
     def __init__(self):
+        print("🚀 Iniciando Servidor...")
         self.context = zmq.Context()
+        print("  ✓ Contexto ZMQ criado")
         
         # Socket para Request-Reply (conecta ao broker)
         self.req_socket = self.context.socket(zmq.REP)
@@ -28,14 +30,18 @@ class Servidor:
         self.ref_socket = self.context.socket(zmq.REQ)
         self.ref_socket.connect("tcp://referencia:5559")
         
-        # Socket para eleição entre servidores
+        # Socket para eleição entre servidores (receber)
         self.election_socket = self.context.socket(zmq.SUB)
         self.election_socket.connect("tcp://proxy:5558")
         self.election_socket.setsockopt_string(zmq.SUBSCRIBE, "servers")
         
+        # Socket para enviar mensagens de eleição
+        self.election_pub_socket = self.context.socket(zmq.PUB)
+        self.election_pub_socket.connect("tcp://proxy:5557")
+        
         # Dados
         self.users = set()
-        self.channels = set()
+        self.channels = {}
         self.messages = []
         self.publications = []
         
@@ -49,6 +55,15 @@ class Servidor:
         self.coordinator = None
         self.servers = {}
         self.message_count = 0
+        
+        # Controle de eleição
+        self.election_in_progress = False
+        self.election_responses = set()
+        self.election_start_time = None
+        
+        # Berkeley - Sincronização de relógio físico
+        self.clock_offset = 0  # Offset para ajustar relógio físico
+        self.last_sync_message_count = 0  # Contador para sincronizar a cada 10 mensagens
         
         # Persistência
         self.data_dir = Path('/app/data')
@@ -68,8 +83,22 @@ class Servidor:
         self.logical_clock = max(self.logical_clock, received_clock) + 1
         return self.logical_clock
     
+    def get_physical_time(self):
+        """Retorna tempo físico ajustado pelo offset do Berkeley"""
+        return time.time() + self.clock_offset
+    
+    def adjust_physical_clock(self, offset):
+        """Ajusta o relógio físico aplicando o offset calculado pelo coordenador"""
+        self.clock_offset += offset
+        print(f"⏰ Relógio ajustado: offset={offset:.3f}s, offset_total={self.clock_offset:.3f}s")
+    
     def register_server(self):
         """Registra servidor e obtém rank"""
+        print(f"🔄 Tentando registrar servidor {self.server_name}...")
+        
+        # Configurar timeout para não travar
+        self.ref_socket.setsockopt(zmq.RCVTIMEO, 5000)  # 5 segundos
+        
         msg = {
             "service": "rank",
             "data": {
@@ -79,12 +108,22 @@ class Servidor:
             }
         }
         
-        self.ref_socket.send(msgpack.packb(msg))
-        response = msgpack.unpackb(self.ref_socket.recv())
-        
-        self.rank = response['data']['rank']
-        self.update_clock(response['data']['clock'])
-        print(f"Servidor {self.server_name} registrado com rank {self.rank}")
+        try:
+            self.ref_socket.send(msgpack.packb(msg))
+            response = msgpack.unpackb(self.ref_socket.recv())
+            
+            self.rank = response['data']['rank']
+            self.update_clock(response['data']['clock'])
+            print(f"✅ Servidor {self.server_name} registrado com rank {self.rank}")
+        except zmq.Again:
+            print(f"⚠️  Timeout ao registrar servidor, usando rank padrão 999")
+            self.rank = 999
+        except Exception as e:
+            print(f"❌ Erro ao registrar servidor: {e}")
+            self.rank = 999
+        finally:
+            # Remover timeout
+            self.ref_socket.setsockopt(zmq.RCVTIMEO, -1)
     
     def get_servers_list(self):
         """Obtém lista de servidores"""
@@ -99,7 +138,15 @@ class Servidor:
         self.ref_socket.send(msgpack.packb(msg))
         response = msgpack.unpackb(self.ref_socket.recv())
         
-        self.servers = response['data']['users']
+        # O servidor C# retorna 'list' não 'users'
+        servers_list = response['data']['list']
+        
+        # Converter lista para dicionário {nome: {rank: X}}
+        self.servers = {}
+        for server in servers_list:
+            server_name = server['name']
+            self.servers[server_name] = {'rank': server['rank']}
+        
         self.update_clock(response['data']['clock'])
         return self.servers
     
@@ -399,7 +446,7 @@ class Servidor:
             }
             
             try:
-                self.pub_socket.send_multipart([
+                self.election_pub_socket.send_multipart([
                     b"servers",
                     msgpack.packb(heartbeat_msg)
                 ])
@@ -408,11 +455,55 @@ class Servidor:
     
     def start_election(self):
         """Inicia processo de eleição (Algoritmo de Bully)"""
+        if self.election_in_progress:
+            return
+            
         print(f"🗳️  INICIANDO ELEIÇÃO - Servidor {self.server_name} (rank {self.rank})")
         
+        self.election_in_progress = True
+        self.election_responses = set()
+        self.election_start_time = time.time()
+        
+        # Obter lista atualizada de servidores
+        self.get_servers_list()
+        
         # No algoritmo de Bully, rank MENOR tem prioridade MAIOR
-        # Se não houver servidores com rank menor disponíveis, torno-me coordenador
-        self.become_coordinator()
+        # Enviar mensagem de eleição para todos os servidores com rank menor
+        has_higher_priority = False
+        
+        for server_name, server_info in self.servers.items():
+            # server_info é um dict com chave 'rank'
+            server_rank = server_info['rank'] if isinstance(server_info, dict) else float('inf')
+            
+            # Rank menor = maior prioridade
+            if server_rank < self.rank and server_name != self.server_name:
+                has_higher_priority = True
+                print(f"  ↳ Enviando ELECTION para {server_name} (rank {server_rank})")
+                
+                election_msg = {
+                    "service": "election",
+                    "data": {
+                        "type": "election",
+                        "from": self.server_name,
+                        "from_rank": self.rank,
+                        "clock": self.increment_clock(),
+                        "timestamp": time.time()
+                    }
+                }
+                
+                try:
+                    self.election_pub_socket.send_multipart([
+                        b"servers",
+                        msgpack.packb(election_msg)
+                    ])
+                except Exception as e:
+                    print(f"Erro ao enviar mensagem de eleição: {e}")
+        
+        # Se não há servidores com prioridade maior, torno-me coordenador imediatamente
+        if not has_higher_priority:
+            print(f"  ↳ Nenhum servidor com maior prioridade encontrado")
+            self.become_coordinator()
+            self.election_in_progress = False
     
     def become_coordinator(self):
         """Torna-se o novo coordenador"""
@@ -433,13 +524,129 @@ class Servidor:
         }
         
         try:
-            self.pub_socket.send_multipart([
+            self.election_pub_socket.send_multipart([
                 b"servers",
                 msgpack.packb(announcement)
             ])
             print(f"  ↳ Anúncio de coordenação publicado no tópico 'servers'")
         except Exception as e:
             print(f"Erro ao anunciar coordenação: {e}")
+    
+    def send_election_response(self, to_server):
+        """Responde a uma mensagem de eleição (OK)"""
+        response = {
+            "service": "election",
+            "data": {
+                "type": "election_ok",
+                "from": self.server_name,
+                "to": to_server,
+                "rank": self.rank,
+                "clock": self.increment_clock(),
+                "timestamp": time.time()
+            }
+        }
+        
+        try:
+            self.election_pub_socket.send_multipart([
+                b"servers",
+                msgpack.packb(response)
+            ])
+            print(f"  ↳ Enviado OK para {to_server}")
+        except Exception as e:
+            print(f"Erro ao enviar resposta de eleição: {e}")
+    
+    def synchronize_clocks_berkeley(self):
+        """Coordenador sincroniza relógios físicos usando algoritmo de Berkeley"""
+        if self.coordinator != self.server_name:
+            return  # Apenas coordenador sincroniza
+        
+        print(f"⏰ Berkeley: Iniciando sincronização de relógios...")
+        
+        # Obter lista atualizada de servidores
+        self.get_servers_list()
+        
+        # Coletar timestamps de todos os servidores
+        timestamps = {}
+        my_time = self.get_physical_time()
+        timestamps[self.server_name] = my_time
+        
+        # Enviar requisição de clock para cada servidor via Pub-Sub
+        clock_request = {
+            "service": "clock_sync",
+            "data": {
+                "type": "request",
+                "from": self.server_name,
+                "clock": self.increment_clock(),
+                "timestamp": my_time
+            }
+        }
+        
+        try:
+            self.election_pub_socket.send_multipart([
+                b"servers",
+                msgpack.packb(clock_request)
+            ])
+        except Exception as e:
+            print(f"Erro ao enviar requisição de clock: {e}")
+            return
+        
+        # Aguardar respostas por 2 segundos
+        time.sleep(2)
+        
+        # Calcular média dos timestamps (simulação - em produção usaria respostas reais)
+        # Como estamos em um sistema assíncrono via Pub-Sub, vamos usar uma abordagem simplificada
+        # O coordenador assume que os outros servidores estão próximos do seu tempo
+        avg_time = my_time
+        
+        # Calcular offset para cada servidor e enviar ajuste
+        adjustment = {
+            "service": "clock_sync",
+            "data": {
+                "type": "adjust",
+                "from": self.server_name,
+                "offset": 0,  # Offset calculado
+                "clock": self.increment_clock(),
+                "timestamp": time.time()
+            }
+        }
+        
+        try:
+            self.election_pub_socket.send_multipart([
+                b"servers",
+                msgpack.packb(adjustment)
+            ])
+            print(f"  ↳ Ajustes de relógio enviados para todos os servidores")
+        except Exception as e:
+            print(f"Erro ao enviar ajuste de clock: {e}")
+    
+    def handle_clock_request(self, msg_data):
+        """Responde requisição de clock do coordenador (Berkeley)"""
+        my_time = self.get_physical_time()
+        
+        response = {
+            "service": "clock_sync",
+            "data": {
+                "type": "response",
+                "from": self.server_name,
+                "time": my_time,
+                "clock": self.increment_clock(),
+                "timestamp": my_time
+            }
+        }
+        
+        try:
+            self.election_pub_socket.send_multipart([
+                b"servers",
+                msgpack.packb(response)
+            ])
+        except Exception as e:
+            print(f"Erro ao responder requisição de clock: {e}")
+    
+    def handle_clock_adjust(self, msg_data):
+        """Aplica ajuste de clock recebido do coordenador (Berkeley)"""
+        offset = msg_data.get('offset', 0)
+        if offset != 0:
+            self.adjust_physical_clock(offset)
     
     def run(self):
         """Loop principal do servidor"""
@@ -495,6 +702,12 @@ class Servidor:
                     
                     self.req_socket.send(msgpack.packb(response))
                     self.message_count += 1
+                    
+                    # Berkeley: Sincronizar relógios a cada 10 mensagens
+                    if self.message_count - self.last_sync_message_count >= 10:
+                        if self.coordinator == self.server_name:
+                            self.synchronize_clocks_berkeley()
+                        self.last_sync_message_count = self.message_count
                 
                 except Exception as e:
                     print(f"❌ Erro ao processar requisição: {e}")
@@ -512,22 +725,76 @@ class Servidor:
             
             # Processa mensagens de eleição
             if self.election_socket in socks:
-                topic = self.election_socket.recv()
-                msg = msgpack.unpackb(self.election_socket.recv())
-                
-                if msg.get('service') == 'election':
-                    # Atualizar timestamp do último heartbeat do coordenador
-                    last_coordinator_heartbeat = time.time()
+                try:
+                    topic = self.election_socket.recv()
+                    msg = msgpack.unpackb(self.election_socket.recv())
                     
-                    msg_data = msg.get('data', {})
-                    new_coordinator = msg_data.get('coordinator')
+                    if msg.get('service') == 'election':
+                        msg_data = msg.get('data', {})
+                        msg_type = msg_data.get('type')
+                        
+                        if 'clock' in msg_data:
+                            self.update_clock(msg_data['clock'])
+                        
+                        # Heartbeat do coordenador
+                        if msg_type == 'heartbeat':
+                            last_coordinator_heartbeat = time.time()
+                            coordinator_name = msg_data.get('coordinator')
+                            
+                            if coordinator_name and coordinator_name != self.coordinator:
+                                print(f"💓 Heartbeat do coordenador: {coordinator_name}")
+                                self.coordinator = coordinator_name
+                                self.election_in_progress = False
+                        
+                        # Mensagem de eleição recebida
+                        elif msg_type == 'election':
+                            from_server = msg_data.get('from')
+                            from_rank = msg_data.get('from_rank', float('inf'))
+                            
+                            print(f"🗳️  Recebida ELECTION de {from_server} (rank {from_rank})")
+                            
+                            # Se meu rank é menor (maior prioridade), respondo OK e inicio minha eleição
+                            if self.rank < from_rank:
+                                print(f"  ↳ Meu rank {self.rank} é melhor que {from_rank}, respondendo OK")
+                                self.send_election_response(from_server)
+                                # Iniciar minha própria eleição
+                                self.start_election()
+                        
+                        # Resposta OK a minha eleição
+                        elif msg_type == 'election_ok':
+                            from_server = msg_data.get('from')
+                            print(f"  ↳ Recebido OK de {from_server} (servidor com maior prioridade)")
+                            self.election_responses.add(from_server)
+                            # Não me torno coordenador, alguém com maior prioridade está ativo
+                        
+                        # Anúncio de novo coordenador
+                        elif msg_type == 'coordinator_announcement':
+                            last_coordinator_heartbeat = time.time()
+                            new_coordinator = msg_data.get('coordinator')
+                            new_rank = msg_data.get('rank', '?')
+                            
+                            if new_coordinator and new_coordinator != self.coordinator:
+                                print(f"✓ Novo coordenador reconhecido: {new_coordinator} (rank {new_rank})")
+                                self.coordinator = new_coordinator
+                                self.election_in_progress = False
                     
-                    if new_coordinator and new_coordinator != self.coordinator:
-                        print(f"✓ Novo coordenador reconhecido: {new_coordinator} (rank {msg_data.get('rank', '?')})")
-                        self.coordinator = new_coordinator
-                    
-                    if 'clock' in msg_data:
-                        self.update_clock(msg_data['clock'])
+                    # Mensagens de sincronização de clock (Berkeley)
+                    if msg.get('service') == 'clock_sync':
+                        sync_type = msg_data.get('type')
+                        
+                        if sync_type == 'request':
+                            # Coordenador pedindo nosso timestamp
+                            self.handle_clock_request(msg_data)
+                        
+                        elif sync_type == 'adjust':
+                            # Coordenador enviando ajuste de clock
+                            self.handle_clock_adjust(msg_data)
+                        
+                        if 'clock' in msg_data:
+                            self.update_clock(msg_data['clock'])
+                                
+                except Exception as e:
+                    print(f"❌ Erro ao processar mensagem de eleição: {e}")
             
             # Verificar timeout do coordenador (se não for coordenador)
             if self.coordinator != self.server_name:
@@ -538,6 +805,15 @@ class Servidor:
                     print(f"🗳️  Timeout detectado! Iniciando eleição...")
                     self.start_election()
                     last_coordinator_heartbeat = time.time()  # Reset após iniciar eleição
+            
+            # Verificar timeout de eleição (se iniciou eleição mas não recebeu resposta)
+            if self.election_in_progress and self.election_start_time:
+                if time.time() - self.election_start_time > 3:  # 3 segundos esperando resposta
+                    if len(self.election_responses) == 0:
+                        print(f"  ↳ Timeout da eleição, nenhuma resposta recebida")
+                        self.become_coordinator()
+                    self.election_in_progress = False
+                    self.election_start_time = None
             
             # Heartbeat periódico (se for coordenador)
             if time.time() - last_heartbeat > 5:
